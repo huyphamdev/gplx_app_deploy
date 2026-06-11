@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Ôn thi sát hạch lái xe</title>
+    <link rel="stylesheet" href="css/font-awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/toastr.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/segment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        if (localStorage.getItem("is_license")) {
+            if (localStorage.getItem("is_license").indexOf("_2025") == -1) {
+                if (localStorage.getItem("is_license").startsWith("A1") == true) {
+                    localStorage.clear()
+                    localStorage.setItem("is_license", "A_2025")
+                } else {
+                    localStorage.clear()
+                    localStorage.setItem("is_license", "A1_2025")
+                }
+            }
+        } else {
+            localStorage.setItem("is_license", "A1_2025")
+        }
+
+        if (localStorage.getItem("is_data_set")) {
+
+        } else {
+            localStorage.setItem("is_data_set", 0)
+        }
+    </script>
+    <meta name="theme-color" content="#0171ec">
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(function (registration) {
+                        console.log('SW registered:', registration.scope);
+                        
+                        registration.onupdatefound = () => {
+                            const installingWorker = registration.installing;
+                            if (installingWorker == null) return;
+                            
+                            installingWorker.onstatechange = () => {
+                                if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                    if (confirm("Có phiên bản mới của ứng dụng! Bạn có muốn tải lại trang để cập nhật ngay?")) {
+                                        installingWorker.postMessage('skipWaiting');
+                                        window.location.reload();
+                                    }
+                                }
+                            };
+                        };
+                    })
+                    .catch(function (error) {
+                        console.log('SW registration failed:', error);
+                    });
+            });
+            
+            let refreshing = false;
+            navigator.serviceWorker.addEventListener('controllerchange', function() {
+                if (refreshing) return;
+                refreshing = true;
+                window.location.reload();
+            });
+        }
+    </script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+</head>
+
+<body ng-app="app-root">
+    <div class="ng-view"></div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/toastr.js"></script>
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="js/angular-route.js"></script>
+    <script type="text/javascript" src="js/angular-touch.js"></script>
+    <script type="text/javascript" src="js/angular-animate.js"></script>
+    <script type="text/javascript" src="js/angular-sanitize.js"></script>
+    <script type="text/javascript" src="js/fastclick.js"></script>
+    <script type="text/javascript" src="js/full-questions.min.js"></script>
+    <script type="text/javascript" src="js/full-94-questions.min.js"></script>
+    <script type="text/javascript" src="js/full-exams.min.js"></script>
+    <script type="text/javascript" src="js/global-const.js?v=32"></script>
+    <script type="text/javascript" src="js/main.js?v=32"></script>
+
+    <script type="text/javascript" src="controllers/routes.js?v=20"></script>
+    <script type="text/javascript" src="js/services.js?v=32"></script>
+    <script type="text/javascript" src="controllers/details.js"></script>
+    <script type="text/javascript" src="controllers/home.js"></script>
+    <script type="text/javascript" src="controllers/list.js"></script>
+    <script type="text/javascript" src="controllers/list-wrong.js"></script>
+    <script type="text/javascript" src="controllers/reset.js?v=31"></script>
+    <script type="text/javascript" src="controllers/list-exam.js"></script>
+    <script type="text/javascript" src="controllers/list-topic.js"></script>
+    <script type="text/javascript" src="controllers/question.js?v=29"></script>
+    <script type="text/javascript" src="controllers/exam.js?v=26"></script>
+    <script type="text/javascript" src="controllers/setting.js"></script>
+    <script type="text/javascript" src="controllers/random.js?v=26"></script>
+    <script type="text/javascript" src="controllers/review.js"></script>
+
+
+</body>
+
+</html>

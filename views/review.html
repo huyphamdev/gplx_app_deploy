@@ -1,0 +1,64 @@
+<div class="head-navigation">
+    <a class="left" href="#!list-exam">
+        <span style="color:#0171ec" class="fa fa-chevron-left"></span>
+    </a>
+    <div class="center">
+        <strong>Xem lại - Đề số {{examCode}}</strong>
+    </div>
+    <div class="right">
+    </div>
+</div>
+
+<div id="details-page">
+    <div style="display: flex; justify-content: space-between; align-items: center; padding: 5px;">
+        <div style="font-size: 14px;">{{index+1}}/{{questions.length}}</div>
+        <div></div>
+        <a href="#!list-exam" style="background-color: #ff9400; color: white; border: none; border-radius: 20px; padding: 6px 18px; font-weight: bold; font-size: 12px; text-decoration: none; display: inline-block;">Đóng</a>
+    </div>
+
+    <!-- Grid Popup -->
+    <div ng-if="show_grid" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 1000; overflow-y: auto;" ng-click="toggleGrid()">
+        <div style="background: white; border-radius: 16px; margin: 80px auto; padding: 20px; width: 90%; max-width: 450px; position: relative;" ng-click="$event.stopPropagation()">
+            <button ng-click="toggleGrid()" style="position: absolute; right: 15px; top: 10px; background: none; border: none; font-size: 28px; cursor: pointer; color: #999; outline: none;">&times;</button>
+            <h3 style="margin-top: 0; text-align: center; color: #0171ec; font-size: 18px;">Danh sách câu hỏi</h3>
+            <div class="question-nav-list" style="display: flex; flex-wrap: wrap; gap: 8px; margin: 0 auto; justify-content: center; max-height: 60vh; overflow-y: auto;">
+                <div ng-repeat="question in questions track by $index"
+                     ng-click="jumpTo($index)"
+                     class="question-nav-item {{ getQuestionNavClass(question) }}">
+                    {{$index + 1}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="q-details" ng-swipe-left="nextQuestion()" ng-swipe-right="prevQuestion()" style="min-height: 50vh; max-width: 700px; margin: 0 auto;">
+        <div>
+            <b style="color: #0171ec;"><span style="{{dangerCss}}">Câu {{ index + 1 }}:</span> {{ question.text }}</b>
+        </div>
+        <div id="q-image" style="margin-top: 10px; text-align: center; display: {{ question.image ? 'block' : 'none' }}">
+            <img src="images/questions/{{ question.image }}" />
+        </div>
+        <div id="answers" style="margin-top: 10px;">
+            <div class="answer {{ getAnswerClass($index) }}" ng-repeat="answer in question.answers track by $index">
+                <div style="width: 20px;">
+                    <input type="radio" name="ansRadio" disabled ng-checked="isAnswered($index)"/>
+                </div>
+                <div class="a-text">{{$index + 1}}. {{ answer.text }}</div>
+            </div>
+        </div>
+        <div id="q-tip" style="margin-top: 10px; display: {{ question.tip ? 'block' : 'none' }};">
+            <b>Hướng dẫn: </b><span ng-bind-html="question.tip"></span>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="item" ng-click="prevQuestion()">
+            <i class="fa fa-chevron-left"></i>
+        </div>
+        <div class="item" ng-click="toggleGrid()">
+            <i class="fa fa-th"></i>
+        </div>
+        <div class="item" ng-click="nextQuestion()">
+            <i class="fa fa-chevron-right"></i>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+<div class="head-navigation">
+    <a class="left" href="#!index">
+        <span style="color:#0171ec" class="fa fa-chevron-left"></span>
+    </a>
+    <div class="center">
+        <strong>Cài đặt</strong></div>
+    <div class="right">
+    </div>
+</div>
+<p></p>
+
+<div id="list-danger-page" class="page has-menu">
+    <div id="list">
+        <div class="item" ng-repeat="lic in list track by $index" ng-click="chooseLicense(lic.code)">
+            <a href="#!">
+                <div style="display: flex;align-items: center;">
+                    <div style="padding-right: 10px;">
+                        <input type="radio" style="width: 25px; height: 25px;" name = "licRadio"  ng-checked = "isChoose(lic.code)"/>
+                    </div>
+                    <div>
+                        <b style="color: #0171ec;">Hạng {{ lic.code.replace("_2025", "") }}</b>
+                        <div style="color: darkgray;">{{ lic.display }}</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="item">
+            <h3 style="color:red;"><span style=" width: 25px; height: 25px; margin-right: 10px;" class="fa fa-trash"></span><a href="#!reset">Xoá lịch sử ôn tập và thi</a></h3>
+        </div>
+    </div>
+</div>

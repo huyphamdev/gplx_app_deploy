@@ -1,0 +1,43 @@
+<div class="head-navigation">
+    <a class="left" href="#!index">
+        <span style="color:#0171ec" class="fa fa-chevron-left"></span>
+    </a>
+    <div class="center">
+        <strong>Bộ đề thi {{licenseCode.replace("_2025", "")}}</strong></div>
+    <div class="right">
+    </div>
+</div>
+<p></p>
+
+<div id="list-exam-page" class="page has-menu">
+    <h5 style="text-align: center;margin-top: 0px;font-weight: normal">(Phải trả lời đúng {{licensePass}} câu và không sai câu liệt)</h5>
+    <div id="list">
+        <a ng-repeat="item in list track by $index" style="{{ item.statusClass == 'exam-passed' ? 'background-color:#0fa05e;color:white;border:none;border-radius:16px;padding:10px' : (item.statusClass == 'exam-failed' ? 'background-color:#b80e0a;color:white;border:none;border-radius:16px;padding:10px' : 'background-color:white;border:1px solid #ddd;border-radius:16px;padding:10px') }}"
+           href="#!exam?examCode={{ item.index}}">
+            <div style="{{ item.statusClass ? 'color:white' : 'color:#0171ec' }};font-weight:bold;">Đề số {{ item.index }}</div>
+
+            <div style="width: 100%; display: flex;align-items: center;padding: 2px">
+                <div style="width: 50%; display: flex;align-items: center;padding: 2px">
+                    <img style="height: 18px; width:18px;" src="images/assets/check.png" />
+                    <span style="padding-left: 5px; font-size:14px">{{ item.passed }}</span>
+                </div>
+                <div style="width: 50%; display: flex;align-items: center; padding: 2px">
+                    <img style="height: 18px; width:18px;" src="images/assets/wrongcheck.png" />
+                    <span style="padding-left: 5px; font-size:14px">{{ item.failed }}</span>
+                </div>
+            </div>
+
+            <div style="width: 100%; display: flex;align-items: center;padding: 2px">
+                <div style="width: 50%; display: flex;align-items: center;padding: 2px">
+                    <i class="fa fa-circle-question" style="font-size:14px"></i>
+                    <span style="padding-left: 5px; font-size:14px">{{ item.passed + item.failed + item.unchecked }}</span>
+                </div>
+                <div style="width: 50%; display: flex;align-items: center;padding: 2px">
+                    <i class="fa fa-clock" style="font-size:14px"></i>
+                    <span style="padding-left: 5px; font-size:14px">{{ item.duration || '0:0' }}</span>
+                </div>
+            </div>
+            <div style="width: 100%; font-size:14px">{{ item.result }}</div>
+        </a>
+    </div>
+</div>

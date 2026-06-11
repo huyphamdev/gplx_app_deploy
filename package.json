@@ -1,0 +1,27 @@
+{
+  "name": "gplx_app_codex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huyphamdev/gplx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huyphamdev/gplx/issues"
+  },
+  "homepage": "https://github.com/huyphamdev/gplx#readme",
+  "dependencies": {
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "ng-annotate-patched": "^1.15.0",
+    "prettier": "^3.8.4"
+  }
+}

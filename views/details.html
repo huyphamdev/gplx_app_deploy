@@ -1,0 +1,46 @@
+<div class="head-navigation">
+    <a class="left" href="#!index">
+        <span style="color:#0171ec" class="fa fa-chevron-left"></span>
+    </a>
+    <div class="center" style="display:flex; flex-direction:column; align-items:center; line-height:1.2;">
+        <strong>Ôn tập</strong>
+        <label style="font-size: 12px; font-weight: normal; margin-top: 2px;">
+            <input type="checkbox" ng-model="autoNext" ng-change="toggleAutoNext()" /> Tự động chuyển (3s)
+        </label>
+    </div>
+    <div class="right" ng-click="toggleResult()">
+        <em style="color:#ff9300" class="fa fa-lightbulb"></em>
+    </div>
+</div>
+
+<h4></h4>
+<div id="details-page">
+    <div id="q-details" ng-swipe-left="nextQuestion()" ng-swipe-right="prevQuestion()" style="min-height: 77vh;">
+        <div>
+            <b style="color: #0171ec;">Câu {{ question.no }}: {{ question.text }}</b>
+        </div>
+        <div id="q-image" style="margin-top: 10px; text-align: center; display: {{ question.image ? 'block' : 'none' }}">
+            <img src="images/questions/{{ question.image }}" />
+        </div>
+        <div id="answers" style="margin-top: 10px;">
+            <div class="answer {{ getAnswerClass($index) }}" ng-repeat="answer in question.answers track by $index" ng-click="toggleAnswer($index)">
+                <div style="width: 20px;">
+                    <input type="radio" name = "ansRadio"  ng-checked = "isAnswered($index)"/> 
+                </div>
+                <div class="a-text">{{$index + 1}}. {{ answer.text }}</div>
+            </div>
+        </div>
+        <div id="q-tip" style="margin-top: 10px; display: {{ question.tip && show_result ? 'block' : 'none' }};">
+            <b>Hướng dẫn: </b><span ng-bind-html="question.tip"></span>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="item" ng-click="prevQuestion()">
+            <i class="fa fa-chevron-left"></i>
+        </div>
+
+        <div class="item" ng-click="nextQuestion()">
+            <em class="fa fa-chevron-right"></em>
+        </div>
+    </div>
+</div>
