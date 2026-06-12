@@ -1,4 +1,4 @@
-const CACHE_NAME = 'gplx-app-v38';
+const CACHE_NAME = 'gplx-app-v39';
 const OFFLINE_URL = './';
 
 const STATIC_ASSETS = [
