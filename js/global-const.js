@@ -1,1 +1,279 @@
-const a12_0x30c790=a12_0x55b5;(function(_0x152a36,_0x41d4fd){const _0x475c9f=a12_0x55b5,_0x76d2ba=_0x152a36();while(!![]){try{const _0x2865cd=-parseInt(_0x475c9f(0x91))/0x1+parseInt(_0x475c9f(0xab))/0x2+parseInt(_0x475c9f(0x99))/0x3+parseInt(_0x475c9f(0xb4))/0x4*(parseInt(_0x475c9f(0x9a))/0x5)+-parseInt(_0x475c9f(0xa3))/0x6+-parseInt(_0x475c9f(0xa6))/0x7*(-parseInt(_0x475c9f(0xad))/0x8)+-parseInt(_0x475c9f(0xa4))/0x9*(parseInt(_0x475c9f(0x96))/0xa);if(_0x2865cd===_0x41d4fd)break;else _0x76d2ba['push'](_0x76d2ba['shift']());}catch(_0x11320d){_0x76d2ba['push'](_0x76d2ba['shift']());}}}(a12_0x2aa3,0xb4a34));function a12_0x55b5(_0x8d68b9,_0x297957){_0x8d68b9=_0x8d68b9-0x8b;const _0x2aa362=a12_0x2aa3();let _0x55b538=_0x2aa362[_0x8d68b9];return _0x55b538;}const fullLicenses=[{'code':a12_0x30c790(0x93),'display':a12_0x30c790(0x9e),'timer':0x474,'pass':0x15,'randQuestions':[{'topicCode':0x1,'num':0x8},{'topicCode':0x2,'num':0x1},{'topicCode':0x3,'num':0x1},{'topicCode':0x4,'num':0x0},{'topicCode':0x5,'num':0x8},{'topicCode':0x6,'num':0x6}]},{'code':a12_0x30c790(0xa0),'display':a12_0x30c790(0xb2),'timer':0x474,'pass':0x17,'randQuestions':[{'topicCode':0x1,'num':0x8},{'topicCode':0x2,'num':0x1},{'topicCode':0x3,'num':0x1},{'topicCode':0x4,'num':0x0},{'topicCode':0x5,'num':0x8},{'topicCode':0x6,'num':0x6}]},{'code':a12_0x30c790(0x90),'display':a12_0x30c790(0x8b),'timer':0x474,'pass':0x17,'randQuestions':[{'topicCode':0x1,'num':0x7},{'topicCode':0x2,'num':0x1},{'topicCode':0x3,'num':0x1},{'topicCode':0x4,'num':0x1},{'topicCode':0x5,'num':0x8},{'topicCode':0x6,'num':0x6}]},{'code':a12_0x30c790(0xae),'display':'Xe\x20ô\x20tô\x20chở\x20người\x20đến\x2008\x20chỗ\x20(không\x20kể\x20chỗ\x20của\x20người\x20lái\x20xe);\x20xe\x20ô\x20tô\x20tải\x20và\x20ô\x20tô\x20chuyên\x20dùng\x20có\x20khối\x20lượng\x20toàn\x20bộ\x20theo\x20thiết\x20kế\x20đến\x203.500\x20kg;\x20các\x20loại\x20xe\x20ô\x20tô\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20B\x20kéo\x20rơ\x20moóc\x20có\x20khối\x20lượng\x20toàn\x20bộ\x20theo\x20thiết\x20kế\x20đến\x20750\x20kg','timer':0x4b0,'pass':0x1b,'randQuestions':[{'topicCode':0x1,'num':0x8},{'topicCode':0x2,'num':0x1},{'topicCode':0x3,'num':0x1},{'topicCode':0x4,'num':0x1},{'topicCode':0x5,'num':0x9},{'topicCode':0x6,'num':0x9}]},{'code':'C1_2025','display':a12_0x30c790(0x98),'timer':0x528,'pass':0x20,'randQuestions':[{'topicCode':0x1,'num':0xa},{'topicCode':0x2,'num':0x1},{'topicCode':0x3,'num':0x2},{'topicCode':0x4,'num':0x1},{'topicCode':0x5,'num':0xa},{'topicCode':0x6,'num':0xa}]},{'code':a12_0x30c790(0xb1),'display':'Xe\x20ô\x20tô\x20tải\x20và\x20ô\x20tô\x20chuyên\x20dùng\x20có\x20khối\x20lượng\x20toàn\x20bộ\x20theo\x20thiết\x20kế\x20trên\x207.500\x20kg;\x20các\x20loại\x20xe\x20ô\x20tô\x20tải\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20C\x20kéo\x20rơ\x20moóc\x20có\x20khối\x20lượng\x20toàn\x20bộ\x20theo\x20thiết\x20kế\x20đến\x20750\x20kg;\x20các\x20loại\x20xe\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20B\x20và\x20hạng\x20C1','timer':0x5a0,'pass':0x24,'randQuestions':[{'topicCode':0x1,'num':0xa},{'topicCode':0x2,'num':0x1},{'topicCode':0x3,'num':0x2},{'topicCode':0x4,'num':0x1},{'topicCode':0x5,'num':0xe},{'topicCode':0x6,'num':0xb}]},{'code':'D1_2025','display':a12_0x30c790(0xba),'timer':0x618,'pass':0x29,'randQuestions':[{'topicCode':0x1,'num':0xa},{'topicCode':0x2,'num':0x1},{'topicCode':0x3,'num':0x2},{'topicCode':0x4,'num':0x1},{'topicCode':0x5,'num':0x10},{'topicCode':0x6,'num':0xe}]},{'code':a12_0x30c790(0xb8),'display':a12_0x30c790(0x8f),'timer':0x618,'pass':0x29,'randQuestions':[{'topicCode':0x1,'num':0xa},{'topicCode':0x2,'num':0x1},{'topicCode':0x3,'num':0x2},{'topicCode':0x4,'num':0x1},{'topicCode':0x5,'num':0x10},{'topicCode':0x6,'num':0xe}]},{'code':'D_2025','display':a12_0x30c790(0xb9),'timer':0x618,'pass':0x29,'randQuestions':[{'topicCode':0x1,'num':0xa},{'topicCode':0x2,'num':0x1},{'topicCode':0x3,'num':0x2},{'topicCode':0x4,'num':0x1},{'topicCode':0x5,'num':0x10},{'topicCode':0x6,'num':0xe}]},{'code':'BE_2025','display':'Xe\x20ô\x20tô\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20B\x20kéo\x20rơ\x20moóc\x20có\x20khối\x20lượng\x20toàn\x20bộ\x20theo\x20thiết\x20kế\x20trên\x20750\x20kg','timer':0x618,'pass':0x29,'randQuestions':[{'topicCode':0x1,'num':0xa},{'topicCode':0x2,'num':0x1},{'topicCode':0x3,'num':0x2},{'topicCode':0x4,'num':0x1},{'topicCode':0x5,'num':0x10},{'topicCode':0x6,'num':0xe}]},{'code':a12_0x30c790(0x8c),'display':'Xe\x20ô\x20tô\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20C1\x20kéo\x20rơ\x20moóc\x20có\x20khối\x20lượng\x20toàn\x20bộ\x20theo\x20thiết\x20kế\x20trên\x20750\x20kg','timer':0x618,'pass':0x29,'randQuestions':[{'topicCode':0x1,'num':0xa},{'topicCode':0x2,'num':0x1},{'topicCode':0x3,'num':0x2},{'topicCode':0x4,'num':0x1},{'topicCode':0x5,'num':0x10},{'topicCode':0x6,'num':0xe}]},{'code':a12_0x30c790(0x97),'display':a12_0x30c790(0xa5),'timer':0x618,'pass':0x29,'randQuestions':[{'topicCode':0x1,'num':0xa},{'topicCode':0x2,'num':0x1},{'topicCode':0x3,'num':0x2},{'topicCode':0x4,'num':0x1},{'topicCode':0x5,'num':0x10},{'topicCode':0x6,'num':0xe}]},{'code':'D1E_2025','display':a12_0x30c790(0x94),'timer':0x618,'pass':0x29,'randQuestions':[{'topicCode':0x1,'num':0xa},{'topicCode':0x2,'num':0x1},{'topicCode':0x3,'num':0x2},{'topicCode':0x4,'num':0x1},{'topicCode':0x5,'num':0x10},{'topicCode':0x6,'num':0xe}]},{'code':a12_0x30c790(0x9c),'display':a12_0x30c790(0xa2),'timer':0x618,'pass':0x29,'randQuestions':[{'topicCode':0x1,'num':0xa},{'topicCode':0x2,'num':0x1},{'topicCode':0x3,'num':0x2},{'topicCode':0x4,'num':0x1},{'topicCode':0x5,'num':0x10},{'topicCode':0x6,'num':0xe}]},{'code':a12_0x30c790(0x92),'display':'Xe\x20ô\x20tô\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20D\x20kéo\x20rơ\x20moóc\x20có\x20khối\x20lượng\x20toàn\x20bộ\x20theo\x20thiết\x20kế\x20trên\x20750\x20kg;\x20xe\x20ô\x20tô\x20chở\x20khách\x20nối\x20toa','timer':0x618,'pass':0x29,'randQuestions':[{'topicCode':0x1,'num':0xa},{'topicCode':0x2,'num':0x1},{'topicCode':0x3,'num':0x2},{'topicCode':0x4,'num':0x1},{'topicCode':0x5,'num':0x10},{'topicCode':0x6,'num':0xe}]}];if(localStorage['getItem'](a12_0x30c790(0xa7))){if(localStorage['getItem'](a12_0x30c790(0xa7))[a12_0x30c790(0xaf)](a12_0x30c790(0xb6))==-0x1){let oldLic=localStorage['getItem'](a12_0x30c790(0xa7));localStorage['clear']();if(oldLic[a12_0x30c790(0x95)]('A1'))localStorage[a12_0x30c790(0x9b)](a12_0x30c790(0xa7),'A1_2025');else{if(oldLic[a12_0x30c790(0x95)]('A'))localStorage['setItem'](a12_0x30c790(0xa7),a12_0x30c790(0xa0));else oldLic[a12_0x30c790(0x95)]('B1')?localStorage['setItem'](a12_0x30c790(0xa7),a12_0x30c790(0x90)):localStorage[a12_0x30c790(0x9b)](a12_0x30c790(0xa7),a12_0x30c790(0x93));}}}else localStorage['setItem'](a12_0x30c790(0xa7),a12_0x30c790(0x93));let license=fullLicenses[a12_0x30c790(0x8d)](function(_0x114f45){const _0x231df4=a12_0x30c790;return _0x114f45['code']==(localStorage['getItem']('is_license')?localStorage[_0x231df4(0x9f)]('is_license'):_0x231df4(0x93));})[0x0];function a12_0x2aa3(){const _0x3da7f1=['3507244BZtMqI','#aa66cc','_2025','#ff8800','D2_2025','Xe\x20ô\x20tô\x20chở\x20người\x20(kể\x20cả\x20xe\x20buýt)\x20trên\x2029\x20chỗ\x20(không\x20kể\x20chỗ\x20của\x20người\x20lái\x20xe);\x20xe\x20ô\x20tô\x20chở\x20người\x20giường\x20nằm;\x20các\x20loại\x20xe\x20ô\x20tô\x20chở\x20người\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20D\x20kéo\x20rơ\x20moóc\x20có\x20khối\x20lượng\x20toàn\x20bộ\x20theo\x20thiết\x20kế\x20đến\x20750\x20kg;\x20các\x20loại\x20xe\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20các\x20hạng\x20B,\x20C1,\x20C,\x20D1,\x20D2','Xe\x20ô\x20tô\x20chở\x20người\x20trên\x2008\x20chỗ\x20(không\x20kể\x20chỗ\x20của\x20người\x20lái\x20xe)\x20đến\x2016\x20chỗ\x20(không\x20kể\x20chỗ\x20của\x20người\x20lái\x20xe);\x20các\x20loại\x20xe\x20ô\x20tô\x20chở\x20người\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20D1\x20kéo\x20rơ\x20moóc\x20có\x20khối\x20lượng\x20toàn\x20bộ\x20theo\x20thiết\x20kế\x20đến\x20750\x20kg;\x20các\x20loại\x20xe\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20các\x20hạng\x20B,\x20C1,\x20C','Xe\x20mô\x20tô\x20ba\x20bánh\x20và\x20các\x20loại\x20xe\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20A1','C1E_2025','filter','#669900','Xe\x20ô\x20tô\x20chở\x20người\x20(kể\x20cả\x20xe\x20buýt)\x20trên\x2016\x20chỗ\x20(không\x20kể\x20chỗ\x20của\x20người\x20lái\x20xe)\x20đến\x2029\x20chỗ\x20(không\x20kể\x20chỗ\x20của\x20người\x20lái\x20xe);\x20các\x20loại\x20xe\x20ô\x20tô\x20chở\x20người\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20D2\x20kéo\x20rơ\x20moóc\x20có\x20khối\x20lượng\x20toàn\x20bộ\x20theo\x20thiết\x20kế\x20đến\x20750\x20kg;\x20các\x20loại\x20xe\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20các\x20hạng\x20B,\x20C1,\x20C,\x20D1','B1_2025','45768ptekzY','DE_2025','A1_2025','Xe\x20ô\x20tô\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20D1\x20kéo\x20rơ\x20moóc\x20có\x20khối\x20lượng\x20toàn\x20bộ\x20theo\x20thiết\x20kế\x20trên\x20750\x20kg','startsWith','2770210pxFDOW','CE_2025','Xe\x20ô\x20tô\x20tải\x20và\x20ô\x20tô\x20chuyên\x20dùng\x20có\x20khối\x20lượng\x20toàn\x20bộ\x20theo\x20thiết\x20kế\x20trên\x203.500\x20kg\x20đến\x207.500\x20kg;\x20các\x20loại\x20xe\x20ô\x20tô\x20tải\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20C1\x20kéo\x20rơ\x20moóc\x20có\x20khối\x20lượng\x20toàn\x20bộ\x20theo\x20thiết\x20kế\x20đến\x20750\x20kg;\x20các\x20loại\x20xe\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20B','148920uZolbN','5fHxNZi','setItem','D2E_2025','#03DAC5','Xe\x20mô\x20tô\x20hai\x20bánh\x20có\x20dung\x20tích\x20xi-lanh\x20đến\x20125\x20cm3\x20hoặc\x20có\x20công\x20suất\x20động\x20cơ\x20điện\x20đến\x2011\x20kW','getItem','A_2025','#0099cc','Xe\x20ô\x20tô\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20D2\x20kéo\x20rơ\x20moóc\x20có\x20khối\x20lượng\x20toàn\x20bộ\x20theo\x20thiết\x20kế\x20trên\x20750\x20kg','2193774ARFwFW','27XqnTss','Xe\x20ô\x20tô\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20C\x20kéo\x20rơ\x20moóc\x20có\x20khối\x20lượng\x20toàn\x20bộ\x20theo\x20thiết\x20kế\x20trên\x20750\x20kg;\x20xe\x20ô\x20tô\x20đầu\x20kéo\x20kéo\x20sơ\x20mi\x20rơ\x20moóc','1106FTlpKt','is_license','#008f51','#ffbb33','#cc0000','1455154fKTBle','#ff4444','16624YFLzcA','B_2025','indexOf','red','C_2025','Xe\x20mô\x20tô\x20hai\x20bánh\x20có\x20dung\x20tích\x20xi-lanh\x20trên\x20125\x20cm3\x20hoặc\x20có\x20công\x20suất\x20động\x20cơ\x20điện\x20trên\x2011\x20kW\x20và\x20các\x20loại\x20xe\x20quy\x20định\x20cho\x20giấy\x20phép\x20lái\x20xe\x20hạng\x20A1','#0096ff'];a12_0x2aa3=function(){return _0x3da7f1;};return a12_0x2aa3();}const paletteColor=[a12_0x30c790(0xb5),a12_0x30c790(0xb7),a12_0x30c790(0xa1),a12_0x30c790(0x8e),a12_0x30c790(0xb3),'#aa66cc','#ff4444',a12_0x30c790(0xa8),a12_0x30c790(0xb0),'#03DAC5',a12_0x30c790(0xa9),a12_0x30c790(0xb5),'#ff8800',a12_0x30c790(0xa1),'#669900','#ff8800',a12_0x30c790(0xb5),a12_0x30c790(0xac),a12_0x30c790(0xaa),'#f17a0a',a12_0x30c790(0x9d),a12_0x30c790(0xa9)];
+const fullLicenses = [
+  {
+    code: "A1_2025",
+    display:
+      "Xe mô tô hai bánh có dung tích xi-lanh đến 125 cm3 hoặc có công suất động cơ điện đến 11 kW",
+    timer: 1140.0,
+    pass: 21,
+    randQuestions: [
+      { topicCode: 1, num: 8 },
+      { topicCode: 2, num: 1 },
+      { topicCode: 3, num: 1 },
+      { topicCode: 4, num: 0 },
+      { topicCode: 5, num: 8 },
+      { topicCode: 6, num: 6 },
+    ],
+  },
+  {
+    code: "A_2025",
+    display:
+      "Xe mô tô hai bánh có dung tích xi-lanh trên 125 cm3 hoặc có công suất động cơ điện trên 11 kW và các loại xe quy định cho giấy phép lái xe hạng A1",
+    timer: 1140.0,
+    pass: 23,
+    randQuestions: [
+      { topicCode: 1, num: 8 },
+      { topicCode: 2, num: 1 },
+      { topicCode: 3, num: 1 },
+      { topicCode: 4, num: 0 },
+      { topicCode: 5, num: 8 },
+      { topicCode: 6, num: 6 },
+    ],
+  },
+  {
+    code: "B1_2025",
+    display:
+      "Xe mô tô ba bánh và các loại xe quy định cho giấy phép lái xe hạng A1",
+    timer: 1140.0,
+    pass: 23,
+    randQuestions: [
+      { topicCode: 1, num: 7 },
+      { topicCode: 2, num: 1 },
+      { topicCode: 3, num: 1 },
+      { topicCode: 4, num: 1 },
+      { topicCode: 5, num: 8 },
+      { topicCode: 6, num: 6 },
+    ],
+  },
+  {
+    code: "B_2025",
+    display:
+      "Xe ô tô chở người đến 08 chỗ (không kể chỗ của người lái xe); xe ô tô tải và ô tô chuyên dùng có khối lượng toàn bộ theo thiết kế đến 3.500 kg; các loại xe ô tô quy định cho giấy phép lái xe hạng B kéo rơ moóc có khối lượng toàn bộ theo thiết kế đến 750 kg",
+    timer: 1200.0,
+    pass: 27,
+    randQuestions: [
+      { topicCode: 1, num: 8 },
+      { topicCode: 2, num: 1 },
+      { topicCode: 3, num: 1 },
+      { topicCode: 4, num: 1 },
+      { topicCode: 5, num: 9 },
+      { topicCode: 6, num: 9 },
+    ],
+  },
+  {
+    code: "C1_2025",
+    display:
+      "Xe ô tô tải và ô tô chuyên dùng có khối lượng toàn bộ theo thiết kế trên 3.500 kg đến 7.500 kg; các loại xe ô tô tải quy định cho giấy phép lái xe hạng C1 kéo rơ moóc có khối lượng toàn bộ theo thiết kế đến 750 kg; các loại xe quy định cho giấy phép lái xe hạng B",
+    timer: 1320.0,
+    pass: 32,
+    randQuestions: [
+      { topicCode: 1, num: 10 },
+      { topicCode: 2, num: 1 },
+      { topicCode: 3, num: 2 },
+      { topicCode: 4, num: 1 },
+      { topicCode: 5, num: 10 },
+      { topicCode: 6, num: 10 },
+    ],
+  },
+  {
+    code: "C_2025",
+    display:
+      "Xe ô tô tải và ô tô chuyên dùng có khối lượng toàn bộ theo thiết kế trên 7.500 kg; các loại xe ô tô tải quy định cho giấy phép lái xe hạng C kéo rơ moóc có khối lượng toàn bộ theo thiết kế đến 750 kg; các loại xe quy định cho giấy phép lái xe hạng B và hạng C1",
+    timer: 1440.0,
+    pass: 36,
+    randQuestions: [
+      { topicCode: 1, num: 10 },
+      { topicCode: 2, num: 1 },
+      { topicCode: 3, num: 2 },
+      { topicCode: 4, num: 1 },
+      { topicCode: 5, num: 14 },
+      { topicCode: 6, num: 11 },
+    ],
+  },
+  {
+    code: "D1_2025",
+    display:
+      "Xe ô tô chở người trên 08 chỗ (không kể chỗ của người lái xe) đến 16 chỗ (không kể chỗ của người lái xe); các loại xe ô tô chở người quy định cho giấy phép lái xe hạng D1 kéo rơ moóc có khối lượng toàn bộ theo thiết kế đến 750 kg; các loại xe quy định cho giấy phép lái xe các hạng B, C1, C",
+    timer: 1560.0,
+    pass: 41,
+    randQuestions: [
+      { topicCode: 1, num: 10 },
+      { topicCode: 2, num: 1 },
+      { topicCode: 3, num: 2 },
+      { topicCode: 4, num: 1 },
+      { topicCode: 5, num: 16 },
+      { topicCode: 6, num: 14 },
+    ],
+  },
+  {
+    code: "D2_2025",
+    display:
+      "Xe ô tô chở người (kể cả xe buýt) trên 16 chỗ (không kể chỗ của người lái xe) đến 29 chỗ (không kể chỗ của người lái xe); các loại xe ô tô chở người quy định cho giấy phép lái xe hạng D2 kéo rơ moóc có khối lượng toàn bộ theo thiết kế đến 750 kg; các loại xe quy định cho giấy phép lái xe các hạng B, C1, C, D1",
+    timer: 1560.0,
+    pass: 41,
+    randQuestions: [
+      { topicCode: 1, num: 10 },
+      { topicCode: 2, num: 1 },
+      { topicCode: 3, num: 2 },
+      { topicCode: 4, num: 1 },
+      { topicCode: 5, num: 16 },
+      { topicCode: 6, num: 14 },
+    ],
+  },
+  {
+    code: "D_2025",
+    display:
+      "Xe ô tô chở người (kể cả xe buýt) trên 29 chỗ (không kể chỗ của người lái xe); xe ô tô chở người giường nằm; các loại xe ô tô chở người quy định cho giấy phép lái xe hạng D kéo rơ moóc có khối lượng toàn bộ theo thiết kế đến 750 kg; các loại xe quy định cho giấy phép lái xe các hạng B, C1, C, D1, D2",
+    timer: 1560.0,
+    pass: 41,
+    randQuestions: [
+      { topicCode: 1, num: 10 },
+      { topicCode: 2, num: 1 },
+      { topicCode: 3, num: 2 },
+      { topicCode: 4, num: 1 },
+      { topicCode: 5, num: 16 },
+      { topicCode: 6, num: 14 },
+    ],
+  },
+  {
+    code: "BE_2025",
+    display:
+      "Xe ô tô quy định cho giấy phép lái xe hạng B kéo rơ moóc có khối lượng toàn bộ theo thiết kế trên 750 kg",
+    timer: 1560.0,
+    pass: 41,
+    randQuestions: [
+      { topicCode: 1, num: 10 },
+      { topicCode: 2, num: 1 },
+      { topicCode: 3, num: 2 },
+      { topicCode: 4, num: 1 },
+      { topicCode: 5, num: 16 },
+      { topicCode: 6, num: 14 },
+    ],
+  },
+  {
+    code: "C1E_2025",
+    display:
+      "Xe ô tô quy định cho giấy phép lái xe hạng C1 kéo rơ moóc có khối lượng toàn bộ theo thiết kế trên 750 kg",
+    timer: 1560.0,
+    pass: 41,
+    randQuestions: [
+      { topicCode: 1, num: 10 },
+      { topicCode: 2, num: 1 },
+      { topicCode: 3, num: 2 },
+      { topicCode: 4, num: 1 },
+      { topicCode: 5, num: 16 },
+      { topicCode: 6, num: 14 },
+    ],
+  },
+  {
+    code: "CE_2025",
+    display:
+      "Xe ô tô quy định cho giấy phép lái xe hạng C kéo rơ moóc có khối lượng toàn bộ theo thiết kế trên 750 kg; xe ô tô đầu kéo kéo sơ mi rơ moóc",
+    timer: 1560.0,
+    pass: 41,
+    randQuestions: [
+      { topicCode: 1, num: 10 },
+      { topicCode: 2, num: 1 },
+      { topicCode: 3, num: 2 },
+      { topicCode: 4, num: 1 },
+      { topicCode: 5, num: 16 },
+      { topicCode: 6, num: 14 },
+    ],
+  },
+  {
+    code: "D1E_2025",
+    display:
+      "Xe ô tô quy định cho giấy phép lái xe hạng D1 kéo rơ moóc có khối lượng toàn bộ theo thiết kế trên 750 kg",
+    timer: 1560.0,
+    pass: 41,
+    randQuestions: [
+      { topicCode: 1, num: 10 },
+      { topicCode: 2, num: 1 },
+      { topicCode: 3, num: 2 },
+      { topicCode: 4, num: 1 },
+      { topicCode: 5, num: 16 },
+      { topicCode: 6, num: 14 },
+    ],
+  },
+  {
+    code: "D2E_2025",
+    display:
+      "Xe ô tô quy định cho giấy phép lái xe hạng D2 kéo rơ moóc có khối lượng toàn bộ theo thiết kế trên 750 kg",
+    timer: 1560.0,
+    pass: 41,
+    randQuestions: [
+      { topicCode: 1, num: 10 },
+      { topicCode: 2, num: 1 },
+      { topicCode: 3, num: 2 },
+      { topicCode: 4, num: 1 },
+      { topicCode: 5, num: 16 },
+      { topicCode: 6, num: 14 },
+    ],
+  },
+  {
+    code: "DE_2025",
+    display:
+      "Xe ô tô quy định cho giấy phép lái xe hạng D kéo rơ moóc có khối lượng toàn bộ theo thiết kế trên 750 kg; xe ô tô chở khách nối toa",
+    timer: 1560.0,
+    pass: 41,
+    randQuestions: [
+      { topicCode: 1, num: 10 },
+      { topicCode: 2, num: 1 },
+      { topicCode: 3, num: 2 },
+      { topicCode: 4, num: 1 },
+      { topicCode: 5, num: 16 },
+      { topicCode: 6, num: 14 },
+    ],
+  },
+];
+
+if (localStorage.getItem("is_license")) {
+  if (localStorage.getItem("is_license").indexOf("_2025") == -1) {
+    let oldLic = localStorage.getItem("is_license");
+    localStorage.clear();
+    if (oldLic.startsWith("A1")) {
+      localStorage.setItem("is_license", "A1_2025");
+    } else if (oldLic.startsWith("A")) {
+      localStorage.setItem("is_license", "A_2025");
+    } else if (oldLic.startsWith("B1")) {
+      localStorage.setItem("is_license", "B1_2025");
+    } else {
+      localStorage.setItem("is_license", "A1_2025");
+    }
+  }
+} else {
+  localStorage.setItem("is_license", "A1_2025");
+}
+
+let license = fullLicenses.filter(function (lic) {
+  return (
+    lic.code ==
+    (localStorage.getItem("is_license")
+      ? localStorage.getItem("is_license")
+      : "A1_2025")
+  );
+})[0];
+
+const paletteColor = [
+  "#aa66cc",
+  "#ff8800",
+  "#0099cc",
+  "#669900",
+  "#0096ff",
+  "#aa66cc",
+  "#ff4444",
+  "#008f51",
+  "red",
+  "#03DAC5",
+  "#ffbb33",
+  "#aa66cc",
+  "#ff8800",
+  "#0099cc",
+  "#669900",
+  "#ff8800",
+  "#aa66cc",
+  "#ff4444",
+  "#cc0000",
+  "#f17a0a",
+  "#03DAC5",
+  "#ffbb33",
+];

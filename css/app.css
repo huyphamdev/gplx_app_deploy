@@ -332,7 +332,7 @@ img {
     align-items: center;
     justify-content: flex-start;
     padding: 10px 0px;
-    border-bottom: 1px dashed #a0a0a0;
+    border-bottom: 1px solid transparent;
     cursor: pointer;
 }
 
@@ -355,11 +355,11 @@ img {
 }
 
 #details-page .answer.correct + .answer {
-    border-top: 1px dashed #a0a0a0;
+    border-top: 1px solid transparent;
 }
 
 #details-page .answer:first-child {
-    border-top: 1px dashed #a0a0a0;
+    border-top: 1px solid transparent;
 }
 
 #details-page .answer .a-text {
@@ -425,7 +425,7 @@ img {
     align-items: center;
     justify-content: flex-start;
     padding: 10px 0px;
-    border-bottom: 1px dashed #a0a0a0;
+    border-bottom: 1px solid transparent;
 }
 
 #list-wrong-page .answer.correct {
@@ -438,7 +438,7 @@ img {
 }
 
 #list-wrong-page .answer:first-child {
-    border-top: 1px dashed #a0a0a0;
+    border-top: 1px solid transparent;
 }
 
 #list-danger-page {
@@ -460,7 +460,7 @@ img {
     align-items: center;
     justify-content: flex-start;
     padding: 10px 0px;
-    border-bottom: 1px dashed #a0a0a0;
+    border-bottom: 1px solid transparent;
 }
 
 #list-danger-page .answer.correct {
@@ -473,7 +473,7 @@ img {
 }
 
 #list-danger-page .answer:first-child {
-    border-top: 1px dashed #a0a0a0;
+    border-top: 1px solid transparent;
 }
 
 #list-exam-page #list {

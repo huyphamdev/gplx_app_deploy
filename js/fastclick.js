@@ -1,8 +1,890 @@
-function a5_0x1d7f(_0x54fac7,_0x5ca2c3){_0x54fac7=_0x54fac7-0x12b;var _0x1eeff7=a5_0x1eef();var _0x1d7fe8=_0x1eeff7[_0x54fac7];return _0x1d7fe8;}(function(_0x35ce2d,_0x212f38){var _0x1ceb72=a5_0x1d7f,_0x39fdf6=_0x35ce2d();while(!![]){try{var _0x2fd223=parseInt(_0x1ceb72(0x1a3))/0x1+parseInt(_0x1ceb72(0x161))/0x2+parseInt(_0x1ceb72(0x16c))/0x3+parseInt(_0x1ceb72(0x12b))/0x4*(-parseInt(_0x1ceb72(0x12f))/0x5)+parseInt(_0x1ceb72(0x176))/0x6+parseInt(_0x1ceb72(0x16b))/0x7+parseInt(_0x1ceb72(0x182))/0x8*(-parseInt(_0x1ceb72(0x180))/0x9);if(_0x2fd223===_0x212f38)break;else _0x39fdf6['push'](_0x39fdf6['shift']());}catch(_0x241f14){_0x39fdf6['push'](_0x39fdf6['shift']());}}}(a5_0x1eef,0x7cc36),(function(){'use strict';var _0x440ebe=a5_0x1d7f;/**
+(function () {
+  "use strict";
+
+  /**
    * @preserve FastClick: polyfill to remove click delays on browsers with touch UIs.
    *
    * @codingstandard ftlabs-jsv2
    * @copyright The Financial Times Limited [All Rights Reserved]
    * @license MIT License (see LICENSE.txt)
    */
-function _0x367a3e(_0x1f3944,_0x57b5df){var _0x45fef1=a5_0x1d7f,_0x3ed467;_0x57b5df=_0x57b5df||{},this[_0x45fef1(0x15a)]=![],this['trackingClickStart']=0x0,this[_0x45fef1(0x145)]=null,this[_0x45fef1(0x14e)]=0x0,this[_0x45fef1(0x199)]=0x0,this[_0x45fef1(0x15b)]=0x0,this[_0x45fef1(0x130)]=_0x57b5df[_0x45fef1(0x130)]||0xa,this[_0x45fef1(0x177)]=_0x1f3944,this[_0x45fef1(0x184)]=_0x57b5df['tapDelay']||0xc8,this[_0x45fef1(0x148)]=_0x57b5df[_0x45fef1(0x148)]||0x2bc;if(_0x367a3e['notNeeded'](_0x1f3944))return;function _0x57d76c(_0x315401,_0x49cb0b){return function(){var _0x51d118=a5_0x1d7f;return _0x315401[_0x51d118(0x196)](_0x49cb0b,arguments);};}var _0x157d66=[_0x45fef1(0x16a),_0x45fef1(0x1b6),_0x45fef1(0x1af),_0x45fef1(0x181),_0x45fef1(0x13b),_0x45fef1(0x1aa)],_0x3ad155=this;for(var _0x5a5f80=0x0,_0x255c97=_0x157d66['length'];_0x5a5f80<_0x255c97;_0x5a5f80++){_0x3ad155[_0x157d66[_0x5a5f80]]=_0x57d76c(_0x3ad155[_0x157d66[_0x5a5f80]],_0x3ad155);}_0xb0a1d7&&(_0x1f3944[_0x45fef1(0x1b5)](_0x45fef1(0x13f),this[_0x45fef1(0x16a)],!![]),_0x1f3944['addEventListener'](_0x45fef1(0x149),this[_0x45fef1(0x16a)],!![]),_0x1f3944['addEventListener'](_0x45fef1(0x16d),this[_0x45fef1(0x16a)],!![])),_0x1f3944[_0x45fef1(0x1b5)](_0x45fef1(0x175),this[_0x45fef1(0x1b6)],!![]),_0x1f3944[_0x45fef1(0x1b5)](_0x45fef1(0x195),this[_0x45fef1(0x1af)],![]),_0x1f3944[_0x45fef1(0x1b5)](_0x45fef1(0x12c),this[_0x45fef1(0x181)],![]),_0x1f3944[_0x45fef1(0x1b5)]('touchend',this[_0x45fef1(0x13b)],![]),_0x1f3944[_0x45fef1(0x1b5)](_0x45fef1(0x153),this[_0x45fef1(0x1aa)],![]),!Event['prototype'][_0x45fef1(0x174)]&&(_0x1f3944[_0x45fef1(0x19d)]=function(_0x23c02b,_0x4cee13,_0x10e4b4){var _0x2c8e79=_0x45fef1,_0x4d7ede=Node[_0x2c8e79(0x137)][_0x2c8e79(0x19d)];_0x23c02b===_0x2c8e79(0x175)?_0x4d7ede[_0x2c8e79(0x154)](_0x1f3944,_0x23c02b,_0x4cee13[_0x2c8e79(0x179)]||_0x4cee13,_0x10e4b4):_0x4d7ede[_0x2c8e79(0x154)](_0x1f3944,_0x23c02b,_0x4cee13,_0x10e4b4);},_0x1f3944[_0x45fef1(0x1b5)]=function(_0x1d02ea,_0x382d83,_0x3bdb66){var _0x209b37=_0x45fef1,_0x59a6e8=Node[_0x209b37(0x137)][_0x209b37(0x1b5)];_0x1d02ea==='click'?_0x59a6e8[_0x209b37(0x154)](_0x1f3944,_0x1d02ea,_0x382d83[_0x209b37(0x179)]||(_0x382d83[_0x209b37(0x179)]=function(_0x146d84){var _0x2471be=_0x209b37;!_0x146d84[_0x2471be(0x18c)]&&_0x382d83(_0x146d84);}),_0x3bdb66):_0x59a6e8[_0x209b37(0x154)](_0x1f3944,_0x1d02ea,_0x382d83,_0x3bdb66);}),typeof _0x1f3944[_0x45fef1(0x18b)]===_0x45fef1(0x18f)&&(_0x3ed467=_0x1f3944['onclick'],_0x1f3944['addEventListener'](_0x45fef1(0x175),function(_0x5c9ea8){_0x3ed467(_0x5c9ea8);},![]),_0x1f3944[_0x45fef1(0x18b)]=null);}var _0x2946da=navigator[_0x440ebe(0x152)][_0x440ebe(0x17c)](_0x440ebe(0x132))>=0x0,_0xb0a1d7=navigator[_0x440ebe(0x152)]['indexOf'](_0x440ebe(0x186))>0x0&&!_0x2946da,_0x5f1990=/iP(ad|hone|od)/['test'](navigator[_0x440ebe(0x152)])&&!_0x2946da,_0x443f28=_0x5f1990&&/OS 4_\d(_\d)?/['test'](navigator[_0x440ebe(0x152)]),_0x3c97e9=_0x5f1990&&/OS [6-7]_\d/[_0x440ebe(0x1a9)](navigator[_0x440ebe(0x152)]),_0xe76310=navigator[_0x440ebe(0x152)][_0x440ebe(0x17c)](_0x440ebe(0x13a))>0x0;_0x367a3e[_0x440ebe(0x137)][_0x440ebe(0x19c)]=function(_0x5cec4a){var _0x33e00f=_0x440ebe;switch(_0x5cec4a[_0x33e00f(0x191)]['toLowerCase']()){case _0x33e00f(0x134):case _0x33e00f(0x1ae):case'textarea':if(_0x5cec4a[_0x33e00f(0x138)])return!![];break;case'input':if(_0x5f1990&&_0x5cec4a[_0x33e00f(0x169)]==='file'||_0x5cec4a[_0x33e00f(0x138)])return!![];break;case _0x33e00f(0x167):case'iframe':case'video':return!![];}return/\bneedsclick\b/[_0x33e00f(0x1a9)](_0x5cec4a[_0x33e00f(0x158)]);},_0x367a3e[_0x440ebe(0x137)][_0x440ebe(0x139)]=function(_0x25df43){var _0x1a9680=_0x440ebe;switch(_0x25df43[_0x1a9680(0x191)][_0x1a9680(0x1a7)]()){case _0x1a9680(0x171):return!![];case'select':return!_0xb0a1d7;case _0x1a9680(0x187):switch(_0x25df43['type']){case _0x1a9680(0x134):case'checkbox':case _0x1a9680(0x165):case _0x1a9680(0x1a0):case _0x1a9680(0x14d):case _0x1a9680(0x141):return![];}return!_0x25df43['disabled']&&!_0x25df43[_0x1a9680(0x14c)];default:return/\bneedsfocus\b/['test'](_0x25df43[_0x1a9680(0x158)]);}},_0x367a3e['prototype'][_0x440ebe(0x183)]=function(_0x55b575,_0x3a2bbe){var _0x4f54a8=_0x440ebe,_0x3f8daf,_0x49d083;document[_0x4f54a8(0x147)]&&document['activeElement']!==_0x55b575&&document[_0x4f54a8(0x147)][_0x4f54a8(0x1b2)](),_0x49d083=_0x3a2bbe['changedTouches'][0x0],_0x3f8daf=document[_0x4f54a8(0x163)](_0x4f54a8(0x136)),_0x3f8daf['initMouseEvent'](this[_0x4f54a8(0x16f)](_0x55b575),!![],!![],window,0x1,_0x49d083[_0x4f54a8(0x15f)],_0x49d083[_0x4f54a8(0x13e)],_0x49d083[_0x4f54a8(0x1ab)],_0x49d083[_0x4f54a8(0x1b4)],![],![],![],![],0x0,null),_0x3f8daf[_0x4f54a8(0x160)]=!![],_0x55b575[_0x4f54a8(0x197)](_0x3f8daf);},_0x367a3e['prototype'][_0x440ebe(0x16f)]=function(_0x1a5ca1){var _0x12bf7b=_0x440ebe;if(_0xb0a1d7&&_0x1a5ca1['tagName']['toLowerCase']()===_0x12bf7b(0x1ae))return _0x12bf7b(0x149);return _0x12bf7b(0x175);},_0x367a3e[_0x440ebe(0x137)]['focus']=function(_0x383202){var _0x2a51e2=_0x440ebe,_0x27b96c;_0x5f1990&&_0x383202[_0x2a51e2(0x17b)]&&_0x383202[_0x2a51e2(0x169)][_0x2a51e2(0x17c)](_0x2a51e2(0x1b1))!==0x0&&_0x383202['type']!==_0x2a51e2(0x1ac)&&_0x383202[_0x2a51e2(0x169)]!==_0x2a51e2(0x133)&&_0x383202[_0x2a51e2(0x169)]!==_0x2a51e2(0x15e)?(_0x27b96c=_0x383202[_0x2a51e2(0x173)][_0x2a51e2(0x17a)],_0x383202[_0x2a51e2(0x17b)](_0x27b96c,_0x27b96c)):_0x383202[_0x2a51e2(0x142)]();},_0x367a3e[_0x440ebe(0x137)][_0x440ebe(0x170)]=function(_0x1bab44){var _0x142b79=_0x440ebe,_0x4df703,_0x428f5d;_0x4df703=_0x1bab44[_0x142b79(0x17f)];if(!_0x4df703||!_0x4df703[_0x142b79(0x168)](_0x1bab44)){_0x428f5d=_0x1bab44;do{if(_0x428f5d[_0x142b79(0x18e)]>_0x428f5d['offsetHeight']){_0x4df703=_0x428f5d,_0x1bab44[_0x142b79(0x17f)]=_0x428f5d;break;}_0x428f5d=_0x428f5d[_0x142b79(0x146)];}while(_0x428f5d);}_0x4df703&&(_0x4df703['fastClickLastScrollTop']=_0x4df703[_0x142b79(0x16e)]);},_0x367a3e[_0x440ebe(0x137)][_0x440ebe(0x166)]=function(_0xa8f6ce){var _0x299623=_0x440ebe;if(_0xa8f6ce[_0x299623(0x1b0)]===Node[_0x299623(0x1a8)])return _0xa8f6ce['parentNode'];return _0xa8f6ce;},_0x367a3e[_0x440ebe(0x137)][_0x440ebe(0x1af)]=function(_0x2c20b5){var _0x39a6e0=_0x440ebe,_0xe92545,_0x42e212,_0x5690f1;if(_0x2c20b5[_0x39a6e0(0x17d)][_0x39a6e0(0x17a)]>0x1)return!![];_0xe92545=this[_0x39a6e0(0x166)](_0x2c20b5[_0x39a6e0(0x159)]),_0x42e212=_0x2c20b5[_0x39a6e0(0x17d)][0x0];if(_0x5f1990){_0x5690f1=window['getSelection']();if(_0x5690f1[_0x39a6e0(0x194)]&&!_0x5690f1[_0x39a6e0(0x135)])return!![];if(!_0x443f28){if(_0x42e212['identifier']&&_0x42e212[_0x39a6e0(0x155)]===this['lastTouchIdentifier'])return _0x2c20b5['preventDefault'](),![];this[_0x39a6e0(0x15b)]=_0x42e212[_0x39a6e0(0x155)],this[_0x39a6e0(0x170)](_0xe92545);}}return this[_0x39a6e0(0x15a)]=!![],this[_0x39a6e0(0x12d)]=_0x2c20b5[_0x39a6e0(0x1a1)],this[_0x39a6e0(0x145)]=_0xe92545,this[_0x39a6e0(0x14e)]=_0x42e212[_0x39a6e0(0x19a)],this[_0x39a6e0(0x199)]=_0x42e212[_0x39a6e0(0x185)],_0x2c20b5[_0x39a6e0(0x1a1)]-this['lastClickTime']<this[_0x39a6e0(0x184)]&&_0x2c20b5['preventDefault'](),!![];},_0x367a3e[_0x440ebe(0x137)][_0x440ebe(0x150)]=function(_0x803033){var _0x329c49=_0x440ebe,_0x1cf6ad=_0x803033[_0x329c49(0x1ad)][0x0],_0x15c84c=this['touchBoundary'];if(Math[_0x329c49(0x18d)](_0x1cf6ad[_0x329c49(0x19a)]-this[_0x329c49(0x14e)])>_0x15c84c||Math[_0x329c49(0x18d)](_0x1cf6ad[_0x329c49(0x185)]-this[_0x329c49(0x199)])>_0x15c84c)return!![];return![];},_0x367a3e[_0x440ebe(0x137)][_0x440ebe(0x181)]=function(_0x5f1e06){var _0x39069e=_0x440ebe;if(!this[_0x39069e(0x15a)])return!![];return(this[_0x39069e(0x145)]!==this[_0x39069e(0x166)](_0x5f1e06[_0x39069e(0x159)])||this[_0x39069e(0x150)](_0x5f1e06))&&(this[_0x39069e(0x15a)]=![],this[_0x39069e(0x145)]=null),!![];},_0x367a3e[_0x440ebe(0x137)][_0x440ebe(0x156)]=function(_0x5f4016){var _0x204369=_0x440ebe;if(_0x5f4016[_0x204369(0x14b)]!==undefined)return _0x5f4016['control'];if(_0x5f4016[_0x204369(0x19f)])return document[_0x204369(0x14f)](_0x5f4016[_0x204369(0x19f)]);return _0x5f4016[_0x204369(0x188)]('button,\x20input:not([type=hidden]),\x20keygen,\x20meter,\x20output,\x20progress,\x20select,\x20textarea');},_0x367a3e[_0x440ebe(0x137)][_0x440ebe(0x13b)]=function(_0x3c1b48){var _0x2cdff7=_0x440ebe,_0x3cb334,_0x307ceb,_0x4bfb33,_0x1002aa,_0x4d48ab,_0x35e292=this[_0x2cdff7(0x145)];if(!this[_0x2cdff7(0x15a)])return!![];if(_0x3c1b48[_0x2cdff7(0x1a1)]-this[_0x2cdff7(0x144)]<this[_0x2cdff7(0x184)])return this[_0x2cdff7(0x15d)]=!![],!![];if(_0x3c1b48['timeStamp']-this[_0x2cdff7(0x12d)]>this['tapTimeout'])return!![];this[_0x2cdff7(0x15d)]=![],this[_0x2cdff7(0x144)]=_0x3c1b48['timeStamp'],_0x307ceb=this['trackingClickStart'],this[_0x2cdff7(0x15a)]=![],this['trackingClickStart']=0x0;_0x3c97e9&&(_0x4d48ab=_0x3c1b48['changedTouches'][0x0],_0x35e292=document['elementFromPoint'](_0x4d48ab[_0x2cdff7(0x19a)]-window['pageXOffset'],_0x4d48ab[_0x2cdff7(0x185)]-window[_0x2cdff7(0x143)])||_0x35e292,_0x35e292['fastClickScrollParent']=this[_0x2cdff7(0x145)]['fastClickScrollParent']);_0x4bfb33=_0x35e292[_0x2cdff7(0x17e)][_0x2cdff7(0x1a7)]();if(_0x4bfb33===_0x2cdff7(0x167)){_0x3cb334=this[_0x2cdff7(0x156)](_0x35e292);if(_0x3cb334){this[_0x2cdff7(0x142)](_0x35e292);if(_0xb0a1d7)return![];_0x35e292=_0x3cb334;}}else{if(this['needsFocus'](_0x35e292)){if(_0x3c1b48[_0x2cdff7(0x1a1)]-_0x307ceb>0x64||_0x5f1990&&window[_0x2cdff7(0x1a2)]!==window&&_0x4bfb33===_0x2cdff7(0x187))return this[_0x2cdff7(0x145)]=null,![];return this['focus'](_0x35e292),this['sendClick'](_0x35e292,_0x3c1b48),(!_0x5f1990||_0x4bfb33!==_0x2cdff7(0x1ae))&&(this[_0x2cdff7(0x145)]=null,_0x3c1b48[_0x2cdff7(0x178)]()),![];}}if(_0x5f1990&&!_0x443f28){_0x1002aa=_0x35e292[_0x2cdff7(0x17f)];if(_0x1002aa&&_0x1002aa[_0x2cdff7(0x19b)]!==_0x1002aa[_0x2cdff7(0x16e)])return!![];}return!this[_0x2cdff7(0x19c)](_0x35e292)&&(_0x3c1b48['preventDefault'](),this[_0x2cdff7(0x183)](_0x35e292,_0x3c1b48)),![];},_0x367a3e[_0x440ebe(0x137)]['onTouchCancel']=function(){var _0x520849=_0x440ebe;this[_0x520849(0x15a)]=![],this[_0x520849(0x145)]=null;},_0x367a3e[_0x440ebe(0x137)][_0x440ebe(0x16a)]=function(_0x4c39f4){var _0x3a3f7d=_0x440ebe;if(!this['targetElement'])return!![];if(_0x4c39f4[_0x3a3f7d(0x160)])return!![];if(!_0x4c39f4[_0x3a3f7d(0x13c)])return!![];if(!this[_0x3a3f7d(0x19c)](this['targetElement'])||this[_0x3a3f7d(0x15d)])return _0x4c39f4[_0x3a3f7d(0x174)]?_0x4c39f4[_0x3a3f7d(0x174)]():_0x4c39f4[_0x3a3f7d(0x18c)]=!![],_0x4c39f4['stopPropagation'](),_0x4c39f4['preventDefault'](),![];return!![];},_0x367a3e[_0x440ebe(0x137)][_0x440ebe(0x1b6)]=function(_0x480921){var _0x35400c=_0x440ebe,_0x2a4f9f;if(this[_0x35400c(0x15a)])return this[_0x35400c(0x145)]=null,this['trackingClick']=![],!![];if(_0x480921[_0x35400c(0x159)][_0x35400c(0x169)]===_0x35400c(0x141)&&_0x480921[_0x35400c(0x1b3)]===0x0)return!![];return _0x2a4f9f=this['onMouse'](_0x480921),!_0x2a4f9f&&(this[_0x35400c(0x145)]=null),_0x2a4f9f;},_0x367a3e[_0x440ebe(0x137)][_0x440ebe(0x19e)]=function(){var _0x29f266=_0x440ebe,_0x49802b=this[_0x29f266(0x177)];_0xb0a1d7&&(_0x49802b[_0x29f266(0x19d)](_0x29f266(0x13f),this[_0x29f266(0x16a)],!![]),_0x49802b[_0x29f266(0x19d)](_0x29f266(0x149),this[_0x29f266(0x16a)],!![]),_0x49802b[_0x29f266(0x19d)](_0x29f266(0x16d),this['onMouse'],!![])),_0x49802b[_0x29f266(0x19d)](_0x29f266(0x175),this[_0x29f266(0x1b6)],!![]),_0x49802b[_0x29f266(0x19d)]('touchstart',this['onTouchStart'],![]),_0x49802b[_0x29f266(0x19d)](_0x29f266(0x12c),this[_0x29f266(0x181)],![]),_0x49802b['removeEventListener'](_0x29f266(0x1a4),this[_0x29f266(0x13b)],![]),_0x49802b[_0x29f266(0x19d)]('touchcancel',this[_0x29f266(0x1aa)],![]);},_0x367a3e[_0x440ebe(0x12e)]=function(_0x4b847a){var _0x70553c=_0x440ebe,_0x3e10c4,_0x3a7f1a,_0x21a9b0,_0x8387dc;if(typeof window[_0x70553c(0x193)]==='undefined')return!![];_0x3a7f1a=+(/Chrome\/([0-9]+)/['exec'](navigator['userAgent'])||[,0x0])[0x1];if(_0x3a7f1a){if(_0xb0a1d7){_0x3e10c4=document[_0x70553c(0x188)](_0x70553c(0x14a));if(_0x3e10c4){if(_0x3e10c4[_0x70553c(0x131)][_0x70553c(0x17c)](_0x70553c(0x18a))!==-0x1)return!![];if(_0x3a7f1a>0x1f&&document['documentElement'][_0x70553c(0x15c)]<=window[_0x70553c(0x157)])return!![];}}else return!![];}if(_0xe76310){_0x21a9b0=navigator[_0x70553c(0x152)]['match'](/Version\/([0-9]*)\.([0-9]*)/);if(_0x21a9b0[0x1]>=0xa&&_0x21a9b0[0x2]>=0x3){_0x3e10c4=document[_0x70553c(0x188)](_0x70553c(0x14a));if(_0x3e10c4){if(_0x3e10c4[_0x70553c(0x131)]['indexOf'](_0x70553c(0x18a))!==-0x1)return!![];if(document[_0x70553c(0x1a5)][_0x70553c(0x15c)]<=window[_0x70553c(0x157)])return!![];}}}if(_0x4b847a[_0x70553c(0x190)][_0x70553c(0x140)]===_0x70553c(0x172)||_0x4b847a[_0x70553c(0x190)][_0x70553c(0x1a6)]===_0x70553c(0x13d))return!![];_0x8387dc=+(/Firefox\/([0-9]+)/[_0x70553c(0x198)](navigator['userAgent'])||[,0x0])[0x1];if(_0x8387dc>=0x1b){_0x3e10c4=document[_0x70553c(0x188)](_0x70553c(0x14a));if(_0x3e10c4&&(_0x3e10c4[_0x70553c(0x131)]['indexOf']('user-scalable=no')!==-0x1||document[_0x70553c(0x1a5)][_0x70553c(0x15c)]<=window[_0x70553c(0x157)]))return!![];}if(_0x4b847a[_0x70553c(0x190)][_0x70553c(0x1a6)]===_0x70553c(0x172)||_0x4b847a['style'][_0x70553c(0x1a6)]==='manipulation')return!![];return![];},_0x367a3e[_0x440ebe(0x151)]=function(_0x526c74,_0xf0e382){return new _0x367a3e(_0x526c74,_0xf0e382);};if(typeof define===_0x440ebe(0x18f)&&typeof define[_0x440ebe(0x164)]===_0x440ebe(0x189)&&define[_0x440ebe(0x164)])define(function(){return _0x367a3e;});else typeof module!=='undefined'&&module[_0x440ebe(0x192)]?(module[_0x440ebe(0x192)]=_0x367a3e['attach'],module[_0x440ebe(0x192)][_0x440ebe(0x162)]=_0x367a3e):window[_0x440ebe(0x162)]=_0x367a3e;}()));function a5_0x1eef(){var _0x47c5cc=['readOnly','radio','touchStartX','getElementById','touchHasMoved','attach','userAgent','touchcancel','call','identifier','findControl','outerWidth','className','target','trackingClick','lastTouchIdentifier','scrollWidth','cancelNextClick','email','screenX','forwardedTouchEvent','1844828GaXVnm','FastClick','createEvent','amd','file','getTargetElementFromEventTarget','label','contains','type','onMouse','6357274qUWQwm','327948CeytJY','mouseup','scrollTop','determineEventType','updateScrollParent','textarea','none','value','stopImmediatePropagation','click','19236MABaTj','layer','preventDefault','hijacked','length','setSelectionRange','indexOf','targetTouches','tagName','fastClickScrollParent','774HmciPN','onTouchMove','214568jLoVzf','sendClick','tapDelay','pageY','Android','input','querySelector','object','user-scalable=no','onclick','propagationStopped','abs','scrollHeight','function','style','nodeName','exports','ontouchstart','rangeCount','touchstart','apply','dispatchEvent','exec','touchStartY','pageX','fastClickLastScrollTop','needsClick','removeEventListener','destroy','htmlFor','image','timeStamp','top','951805wkdhwi','touchend','documentElement','touchAction','toLowerCase','TEXT_NODE','test','onTouchCancel','clientX','time','changedTouches','select','onTouchStart','nodeType','date','blur','detail','clientY','addEventListener','onClick','309148NjTtIB','touchmove','trackingClickStart','notNeeded','5oekRdJ','touchBoundary','content','Windows\x20Phone','month','button','isCollapsed','MouseEvents','prototype','disabled','needsFocus','BB10','onTouchEnd','cancelable','manipulation','screenY','mouseover','msTouchAction','submit','focus','pageYOffset','lastClickTime','targetElement','parentElement','activeElement','tapTimeout','mousedown','meta[name=viewport]','control'];a5_0x1eef=function(){return _0x47c5cc;};return a5_0x1eef();}
+
+  /*jslint browser:true, node:true*/
+  /*global define, Event, Node*/
+
+  /**
+   * Instantiate fast-clicking listeners on the specified layer.
+   *
+   * @constructor
+   * @param {Element} layer The layer to listen on
+   * @param {Object} [options={}] The options to override the defaults
+   */
+  function FastClick(layer, options) {
+    var oldOnClick;
+
+    options = options || {};
+
+    /**
+     * Whether a click is currently being tracked.
+     *
+     * @type boolean
+     */
+    this.trackingClick = false;
+
+    /**
+     * Timestamp for when click tracking started.
+     *
+     * @type number
+     */
+    this.trackingClickStart = 0;
+
+    /**
+     * The element being tracked for a click.
+     *
+     * @type EventTarget
+     */
+    this.targetElement = null;
+
+    /**
+     * X-coordinate of touch start event.
+     *
+     * @type number
+     */
+    this.touchStartX = 0;
+
+    /**
+     * Y-coordinate of touch start event.
+     *
+     * @type number
+     */
+    this.touchStartY = 0;
+
+    /**
+     * ID of the last touch, retrieved from Touch.identifier.
+     *
+     * @type number
+     */
+    this.lastTouchIdentifier = 0;
+
+    /**
+     * Touchmove boundary, beyond which a click will be cancelled.
+     *
+     * @type number
+     */
+    this.touchBoundary = options.touchBoundary || 10;
+
+    /**
+     * The FastClick layer.
+     *
+     * @type Element
+     */
+    this.layer = layer;
+
+    /**
+     * The minimum time between tap(touchstart and touchend) events
+     *
+     * @type number
+     */
+    this.tapDelay = options.tapDelay || 200;
+
+    /**
+     * The maximum time for a tap
+     *
+     * @type number
+     */
+    this.tapTimeout = options.tapTimeout || 700;
+
+    if (FastClick.notNeeded(layer)) {
+      return;
+    }
+
+    // Some old versions of Android don't have Function.prototype.bind
+    function bind(method, context) {
+      return function () {
+        return method.apply(context, arguments);
+      };
+    }
+
+    var methods = [
+      "onMouse",
+      "onClick",
+      "onTouchStart",
+      "onTouchMove",
+      "onTouchEnd",
+      "onTouchCancel",
+    ];
+    var context = this;
+    for (var i = 0, l = methods.length; i < l; i++) {
+      context[methods[i]] = bind(context[methods[i]], context);
+    }
+
+    // Set up event handlers as required
+    if (deviceIsAndroid) {
+      layer.addEventListener("mouseover", this.onMouse, true);
+      layer.addEventListener("mousedown", this.onMouse, true);
+      layer.addEventListener("mouseup", this.onMouse, true);
+    }
+
+    layer.addEventListener("click", this.onClick, true);
+    layer.addEventListener("touchstart", this.onTouchStart, false);
+    layer.addEventListener("touchmove", this.onTouchMove, false);
+    layer.addEventListener("touchend", this.onTouchEnd, false);
+    layer.addEventListener("touchcancel", this.onTouchCancel, false);
+
+    // Hack is required for browsers that don't support Event#stopImmediatePropagation (e.g. Android 2)
+    // which is how FastClick normally stops click events bubbling to callbacks registered on the FastClick
+    // layer when they are cancelled.
+    if (!Event.prototype.stopImmediatePropagation) {
+      layer.removeEventListener = function (type, callback, capture) {
+        var rmv = Node.prototype.removeEventListener;
+        if (type === "click") {
+          rmv.call(layer, type, callback.hijacked || callback, capture);
+        } else {
+          rmv.call(layer, type, callback, capture);
+        }
+      };
+
+      layer.addEventListener = function (type, callback, capture) {
+        var adv = Node.prototype.addEventListener;
+        if (type === "click") {
+          adv.call(
+            layer,
+            type,
+            callback.hijacked ||
+              (callback.hijacked = function (event) {
+                if (!event.propagationStopped) {
+                  callback(event);
+                }
+              }),
+            capture,
+          );
+        } else {
+          adv.call(layer, type, callback, capture);
+        }
+      };
+    }
+
+    // If a handler is already declared in the element's onclick attribute, it will be fired before
+    // FastClick's onClick handler. Fix this by pulling out the user-defined handler function and
+    // adding it as listener.
+    if (typeof layer.onclick === "function") {
+      // Android browser on at least 3.2 requires a new reference to the function in layer.onclick
+      // - the old one won't work if passed to addEventListener directly.
+      oldOnClick = layer.onclick;
+      layer.addEventListener(
+        "click",
+        function (event) {
+          oldOnClick(event);
+        },
+        false,
+      );
+      layer.onclick = null;
+    }
+  }
+
+  /**
+   * Windows Phone 8.1 fakes user agent string to look like Android and iPhone.
+   *
+   * @type boolean
+   */
+  var deviceIsWindowsPhone = navigator.userAgent.indexOf("Windows Phone") >= 0;
+
+  /**
+   * Android requires exceptions.
+   *
+   * @type boolean
+   */
+  var deviceIsAndroid =
+    navigator.userAgent.indexOf("Android") > 0 && !deviceIsWindowsPhone;
+
+  /**
+   * iOS requires exceptions.
+   *
+   * @type boolean
+   */
+  var deviceIsIOS =
+    /iP(ad|hone|od)/.test(navigator.userAgent) && !deviceIsWindowsPhone;
+
+  /**
+   * iOS 4 requires an exception for select elements.
+   *
+   * @type boolean
+   */
+  var deviceIsIOS4 = deviceIsIOS && /OS 4_\d(_\d)?/.test(navigator.userAgent);
+
+  /**
+   * iOS 6.0-7.* requires the target element to be manually derived
+   *
+   * @type boolean
+   */
+  var deviceIsIOSWithBadTarget =
+    deviceIsIOS && /OS [6-7]_\d/.test(navigator.userAgent);
+
+  /**
+   * BlackBerry requires exceptions.
+   *
+   * @type boolean
+   */
+  var deviceIsBlackBerry10 = navigator.userAgent.indexOf("BB10") > 0;
+
+  /**
+   * Determine whether a given element requires a native click.
+   *
+   * @param {EventTarget|Element} target Target DOM element
+   * @returns {boolean} Returns true if the element needs a native click
+   */
+  FastClick.prototype.needsClick = function (target) {
+    switch (target.nodeName.toLowerCase()) {
+      // Don't send a synthetic click to disabled inputs (issue #62)
+      case "button":
+      case "select":
+      case "textarea":
+        if (target.disabled) {
+          return true;
+        }
+
+        break;
+      case "input":
+        // File inputs need real clicks on iOS 6 due to a browser bug (issue #68)
+        if ((deviceIsIOS && target.type === "file") || target.disabled) {
+          return true;
+        }
+
+        break;
+      case "label":
+      case "iframe": // iOS8 homescreen apps can prevent events bubbling into frames
+      case "video":
+        return true;
+    }
+
+    return /\bneedsclick\b/.test(target.className);
+  };
+
+  /**
+   * Determine whether a given element requires a call to focus to simulate click into element.
+   *
+   * @param {EventTarget|Element} target Target DOM element
+   * @returns {boolean} Returns true if the element requires a call to focus to simulate native click.
+   */
+  FastClick.prototype.needsFocus = function (target) {
+    switch (target.nodeName.toLowerCase()) {
+      case "textarea":
+        return true;
+      case "select":
+        return !deviceIsAndroid;
+      case "input":
+        switch (target.type) {
+          case "button":
+          case "checkbox":
+          case "file":
+          case "image":
+          case "radio":
+          case "submit":
+            return false;
+        }
+
+        // No point in attempting to focus disabled inputs
+        return !target.disabled && !target.readOnly;
+      default:
+        return /\bneedsfocus\b/.test(target.className);
+    }
+  };
+
+  /**
+   * Send a click event to the specified element.
+   *
+   * @param {EventTarget|Element} targetElement
+   * @param {Event} event
+   */
+  FastClick.prototype.sendClick = function (targetElement, event) {
+    var clickEvent, touch;
+
+    // On some Android devices activeElement needs to be blurred otherwise the synthetic click will have no effect (#24)
+    if (document.activeElement && document.activeElement !== targetElement) {
+      document.activeElement.blur();
+    }
+
+    touch = event.changedTouches[0];
+
+    // Synthesise a click event, with an extra attribute so it can be tracked
+    clickEvent = document.createEvent("MouseEvents");
+    clickEvent.initMouseEvent(
+      this.determineEventType(targetElement),
+      true,
+      true,
+      window,
+      1,
+      touch.screenX,
+      touch.screenY,
+      touch.clientX,
+      touch.clientY,
+      false,
+      false,
+      false,
+      false,
+      0,
+      null,
+    );
+    clickEvent.forwardedTouchEvent = true;
+    targetElement.dispatchEvent(clickEvent);
+  };
+
+  FastClick.prototype.determineEventType = function (targetElement) {
+    //Issue #159: Android Chrome Select Box does not open with a synthetic click event
+    if (deviceIsAndroid && targetElement.tagName.toLowerCase() === "select") {
+      return "mousedown";
+    }
+
+    return "click";
+  };
+
+  /**
+   * @param {EventTarget|Element} targetElement
+   */
+  FastClick.prototype.focus = function (targetElement) {
+    var length;
+
+    // Issue #160: on iOS 7, some input elements (e.g. date datetime month) throw a vague TypeError on setSelectionRange. These elements don't have an integer value for the selectionStart and selectionEnd properties, but unfortunately that can't be used for detection because accessing the properties also throws a TypeError. Just check the type instead. Filed as Apple bug #15122724.
+    if (
+      deviceIsIOS &&
+      targetElement.setSelectionRange &&
+      targetElement.type.indexOf("date") !== 0 &&
+      targetElement.type !== "time" &&
+      targetElement.type !== "month" &&
+      targetElement.type !== "email"
+    ) {
+      length = targetElement.value.length;
+      targetElement.setSelectionRange(length, length);
+    } else {
+      targetElement.focus();
+    }
+  };
+
+  /**
+   * Check whether the given target element is a child of a scrollable layer and if so, set a flag on it.
+   *
+   * @param {EventTarget|Element} targetElement
+   */
+  FastClick.prototype.updateScrollParent = function (targetElement) {
+    var scrollParent, parentElement;
+
+    scrollParent = targetElement.fastClickScrollParent;
+
+    // Attempt to discover whether the target element is contained within a scrollable layer. Re-check if the
+    // target element was moved to another parent.
+    if (!scrollParent || !scrollParent.contains(targetElement)) {
+      parentElement = targetElement;
+      do {
+        if (parentElement.scrollHeight > parentElement.offsetHeight) {
+          scrollParent = parentElement;
+          targetElement.fastClickScrollParent = parentElement;
+          break;
+        }
+
+        parentElement = parentElement.parentElement;
+      } while (parentElement);
+    }
+
+    // Always update the scroll top tracker if possible.
+    if (scrollParent) {
+      scrollParent.fastClickLastScrollTop = scrollParent.scrollTop;
+    }
+  };
+
+  /**
+   * @param {EventTarget} targetElement
+   * @returns {Element|EventTarget}
+   */
+  FastClick.prototype.getTargetElementFromEventTarget = function (eventTarget) {
+    // On some older browsers (notably Safari on iOS 4.1 - see issue #56) the event target may be a text node.
+    if (eventTarget.nodeType === Node.TEXT_NODE) {
+      return eventTarget.parentNode;
+    }
+
+    return eventTarget;
+  };
+
+  /**
+   * On touch start, record the position and scroll offset.
+   *
+   * @param {Event} event
+   * @returns {boolean}
+   */
+  FastClick.prototype.onTouchStart = function (event) {
+    var targetElement, touch, selection;
+
+    // Ignore multiple touches, otherwise pinch-to-zoom is prevented if both fingers are on the FastClick element (issue #111).
+    if (event.targetTouches.length > 1) {
+      return true;
+    }
+
+    targetElement = this.getTargetElementFromEventTarget(event.target);
+    touch = event.targetTouches[0];
+
+    if (deviceIsIOS) {
+      // Only trusted events will deselect text on iOS (issue #49)
+      selection = window.getSelection();
+      if (selection.rangeCount && !selection.isCollapsed) {
+        return true;
+      }
+
+      if (!deviceIsIOS4) {
+        // Weird things happen on iOS when an alert or confirm dialog is opened from a click event callback (issue #23):
+        // when the user next taps anywhere else on the page, new touchstart and touchend events are dispatched
+        // with the same identifier as the touch event that previously triggered the click that triggered the alert.
+        // Sadly, there is an issue on iOS 4 that causes some normal touch events to have the same identifier as an
+        // immediately preceeding touch event (issue #52), so this fix is unavailable on that platform.
+        // Issue 120: touch.identifier is 0 when Chrome dev tools 'Emulate touch events' is set with an iOS device UA string,
+        // which causes all touch events to be ignored. As this block only applies to iOS, and iOS identifiers are always long,
+        // random integers, it's safe to to continue if the identifier is 0 here.
+        if (touch.identifier && touch.identifier === this.lastTouchIdentifier) {
+          event.preventDefault();
+          return false;
+        }
+
+        this.lastTouchIdentifier = touch.identifier;
+
+        // If the target element is a child of a scrollable layer (using -webkit-overflow-scrolling: touch) and:
+        // 1) the user does a fling scroll on the scrollable layer
+        // 2) the user stops the fling scroll with another tap
+        // then the event.target of the last 'touchend' event will be the element that was under the user's finger
+        // when the fling scroll was started, causing FastClick to send a click event to that layer - unless a check
+        // is made to ensure that a parent layer was not scrolled before sending a synthetic click (issue #42).
+        this.updateScrollParent(targetElement);
+      }
+    }
+
+    this.trackingClick = true;
+    this.trackingClickStart = event.timeStamp;
+    this.targetElement = targetElement;
+
+    this.touchStartX = touch.pageX;
+    this.touchStartY = touch.pageY;
+
+    // Prevent phantom clicks on fast double-tap (issue #36)
+    if (event.timeStamp - this.lastClickTime < this.tapDelay) {
+      event.preventDefault();
+    }
+
+    return true;
+  };
+
+  /**
+   * Based on a touchmove event object, check whether the touch has moved past a boundary since it started.
+   *
+   * @param {Event} event
+   * @returns {boolean}
+   */
+  FastClick.prototype.touchHasMoved = function (event) {
+    var touch = event.changedTouches[0],
+      boundary = this.touchBoundary;
+
+    if (
+      Math.abs(touch.pageX - this.touchStartX) > boundary ||
+      Math.abs(touch.pageY - this.touchStartY) > boundary
+    ) {
+      return true;
+    }
+
+    return false;
+  };
+
+  /**
+   * Update the last position.
+   *
+   * @param {Event} event
+   * @returns {boolean}
+   */
+  FastClick.prototype.onTouchMove = function (event) {
+    if (!this.trackingClick) {
+      return true;
+    }
+
+    // If the touch has moved, cancel the click tracking
+    if (
+      this.targetElement !==
+        this.getTargetElementFromEventTarget(event.target) ||
+      this.touchHasMoved(event)
+    ) {
+      this.trackingClick = false;
+      this.targetElement = null;
+    }
+
+    return true;
+  };
+
+  /**
+   * Attempt to find the labelled control for the given label element.
+   *
+   * @param {EventTarget|HTMLLabelElement} labelElement
+   * @returns {Element|null}
+   */
+  FastClick.prototype.findControl = function (labelElement) {
+    // Fast path for newer browsers supporting the HTML5 control attribute
+    if (labelElement.control !== undefined) {
+      return labelElement.control;
+    }
+
+    // All browsers under test that support touch events also support the HTML5 htmlFor attribute
+    if (labelElement.htmlFor) {
+      return document.getElementById(labelElement.htmlFor);
+    }
+
+    // If no for attribute exists, attempt to retrieve the first labellable descendant element
+    // the list of which is defined here: http://www.w3.org/TR/html5/forms.html#category-label
+    return labelElement.querySelector(
+      "button, input:not([type=hidden]), keygen, meter, output, progress, select, textarea",
+    );
+  };
+
+  /**
+   * On touch end, determine whether to send a click event at once.
+   *
+   * @param {Event} event
+   * @returns {boolean}
+   */
+  FastClick.prototype.onTouchEnd = function (event) {
+    var forElement,
+      trackingClickStart,
+      targetTagName,
+      scrollParent,
+      touch,
+      targetElement = this.targetElement;
+
+    if (!this.trackingClick) {
+      return true;
+    }
+
+    // Prevent phantom clicks on fast double-tap (issue #36)
+    if (event.timeStamp - this.lastClickTime < this.tapDelay) {
+      this.cancelNextClick = true;
+      return true;
+    }
+
+    if (event.timeStamp - this.trackingClickStart > this.tapTimeout) {
+      return true;
+    }
+
+    // Reset to prevent wrong click cancel on input (issue #156).
+    this.cancelNextClick = false;
+
+    this.lastClickTime = event.timeStamp;
+
+    trackingClickStart = this.trackingClickStart;
+    this.trackingClick = false;
+    this.trackingClickStart = 0;
+
+    // On some iOS devices, the targetElement supplied with the event is invalid if the layer
+    // is performing a transition or scroll, and has to be re-detected manually. Note that
+    // for this to function correctly, it must be called *after* the event target is checked!
+    // See issue #57; also filed as rdar://13048589 .
+    if (deviceIsIOSWithBadTarget) {
+      touch = event.changedTouches[0];
+
+      // In certain cases arguments of elementFromPoint can be negative, so prevent setting targetElement to null
+      targetElement =
+        document.elementFromPoint(
+          touch.pageX - window.pageXOffset,
+          touch.pageY - window.pageYOffset,
+        ) || targetElement;
+      targetElement.fastClickScrollParent =
+        this.targetElement.fastClickScrollParent;
+    }
+
+    targetTagName = targetElement.tagName.toLowerCase();
+    if (targetTagName === "label") {
+      forElement = this.findControl(targetElement);
+      if (forElement) {
+        this.focus(targetElement);
+        if (deviceIsAndroid) {
+          return false;
+        }
+
+        targetElement = forElement;
+      }
+    } else if (this.needsFocus(targetElement)) {
+      // Case 1: If the touch started a while ago (best guess is 100ms based on tests for issue #36) then focus will be triggered anyway. Return early and unset the target element reference so that the subsequent click will be allowed through.
+      // Case 2: Without this exception for input elements tapped when the document is contained in an iframe, then any inputted text won't be visible even though the value attribute is updated as the user types (issue #37).
+      if (
+        event.timeStamp - trackingClickStart > 100 ||
+        (deviceIsIOS && window.top !== window && targetTagName === "input")
+      ) {
+        this.targetElement = null;
+        return false;
+      }
+
+      this.focus(targetElement);
+      this.sendClick(targetElement, event);
+
+      // Select elements need the event to go through on iOS 4, otherwise the selector menu won't open.
+      // Also this breaks opening selects when VoiceOver is active on iOS6, iOS7 (and possibly others)
+      if (!deviceIsIOS || targetTagName !== "select") {
+        this.targetElement = null;
+        event.preventDefault();
+      }
+
+      return false;
+    }
+
+    if (deviceIsIOS && !deviceIsIOS4) {
+      // Don't send a synthetic click event if the target element is contained within a parent layer that was scrolled
+      // and this tap is being used to stop the scrolling (usually initiated by a fling - issue #42).
+      scrollParent = targetElement.fastClickScrollParent;
+      if (
+        scrollParent &&
+        scrollParent.fastClickLastScrollTop !== scrollParent.scrollTop
+      ) {
+        return true;
+      }
+    }
+
+    // Prevent the actual click from going though - unless the target node is marked as requiring
+    // real clicks or if it is in the whitelist in which case only non-programmatic clicks are permitted.
+    if (!this.needsClick(targetElement)) {
+      event.preventDefault();
+      this.sendClick(targetElement, event);
+    }
+
+    return false;
+  };
+
+  /**
+   * On touch cancel, stop tracking the click.
+   *
+   * @returns {void}
+   */
+  FastClick.prototype.onTouchCancel = function () {
+    this.trackingClick = false;
+    this.targetElement = null;
+  };
+
+  /**
+   * Determine mouse events which should be permitted.
+   *
+   * @param {Event} event
+   * @returns {boolean}
+   */
+  FastClick.prototype.onMouse = function (event) {
+    // If a target element was never set (because a touch event was never fired) allow the event
+    if (!this.targetElement) {
+      return true;
+    }
+
+    if (event.forwardedTouchEvent) {
+      return true;
+    }
+
+    // Programmatically generated events targeting a specific element should be permitted
+    if (!event.cancelable) {
+      return true;
+    }
+
+    // Derive and check the target element to see whether the mouse event needs to be permitted;
+    // unless explicitly enabled, prevent non-touch click events from triggering actions,
+    // to prevent ghost/doubleclicks.
+    if (!this.needsClick(this.targetElement) || this.cancelNextClick) {
+      // Prevent any user-added listeners declared on FastClick element from being fired.
+      if (event.stopImmediatePropagation) {
+        event.stopImmediatePropagation();
+      } else {
+        // Part of the hack for browsers that don't support Event#stopImmediatePropagation (e.g. Android 2)
+        event.propagationStopped = true;
+      }
+
+      // Cancel the event
+      event.stopPropagation();
+      event.preventDefault();
+
+      return false;
+    }
+
+    // If the mouse event is permitted, return true for the action to go through.
+    return true;
+  };
+
+  /**
+   * On actual clicks, determine whether this is a touch-generated click, a click action occurring
+   * naturally after a delay after a touch (which needs to be cancelled to avoid duplication), or
+   * an actual click which should be permitted.
+   *
+   * @param {Event} event
+   * @returns {boolean}
+   */
+  FastClick.prototype.onClick = function (event) {
+    var permitted;
+
+    // It's possible for another FastClick-like library delivered with third-party code to fire a click event before FastClick does (issue #44). In that case, set the click-tracking flag back to false and return early. This will cause onTouchEnd to return early.
+    if (this.trackingClick) {
+      this.targetElement = null;
+      this.trackingClick = false;
+      return true;
+    }
+
+    // Very odd behaviour on iOS (issue #18): if a submit element is present inside a form and the user hits enter in the iOS simulator or clicks the Go button on the pop-up OS keyboard the a kind of 'fake' click event will be triggered with the submit-type input element as the target.
+    if (event.target.type === "submit" && event.detail === 0) {
+      return true;
+    }
+
+    permitted = this.onMouse(event);
+
+    // Only unset targetElement if the click is not permitted. This will ensure that the check for !targetElement in onMouse fails and the browser's click doesn't go through.
+    if (!permitted) {
+      this.targetElement = null;
+    }
+
+    // If clicks are permitted, return true for the action to go through.
+    return permitted;
+  };
+
+  /**
+   * Remove all FastClick's event listeners.
+   *
+   * @returns {void}
+   */
+  FastClick.prototype.destroy = function () {
+    var layer = this.layer;
+
+    if (deviceIsAndroid) {
+      layer.removeEventListener("mouseover", this.onMouse, true);
+      layer.removeEventListener("mousedown", this.onMouse, true);
+      layer.removeEventListener("mouseup", this.onMouse, true);
+    }
+
+    layer.removeEventListener("click", this.onClick, true);
+    layer.removeEventListener("touchstart", this.onTouchStart, false);
+    layer.removeEventListener("touchmove", this.onTouchMove, false);
+    layer.removeEventListener("touchend", this.onTouchEnd, false);
+    layer.removeEventListener("touchcancel", this.onTouchCancel, false);
+  };
+
+  /**
+   * Check whether FastClick is needed.
+   *
+   * @param {Element} layer The layer to listen on
+   */
+  FastClick.notNeeded = function (layer) {
+    var metaViewport;
+    var chromeVersion;
+    var blackberryVersion;
+    var firefoxVersion;
+
+    // Devices that don't support touch don't need FastClick
+    if (typeof window.ontouchstart === "undefined") {
+      return true;
+    }
+
+    // Chrome version - zero for other browsers
+    chromeVersion = +(/Chrome\/([0-9]+)/.exec(navigator.userAgent) || [, 0])[1];
+
+    if (chromeVersion) {
+      if (deviceIsAndroid) {
+        metaViewport = document.querySelector("meta[name=viewport]");
+
+        if (metaViewport) {
+          // Chrome on Android with user-scalable="no" doesn't need FastClick (issue #89)
+          if (metaViewport.content.indexOf("user-scalable=no") !== -1) {
+            return true;
+          }
+          // Chrome 32 and above with width=device-width or less don't need FastClick
+          if (
+            chromeVersion > 31 &&
+            document.documentElement.scrollWidth <= window.outerWidth
+          ) {
+            return true;
+          }
+        }
+
+        // Chrome desktop doesn't need FastClick (issue #15)
+      } else {
+        return true;
+      }
+    }
+
+    if (deviceIsBlackBerry10) {
+      blackberryVersion = navigator.userAgent.match(
+        /Version\/([0-9]*)\.([0-9]*)/,
+      );
+
+      // BlackBerry 10.3+ does not require Fastclick library.
+      // https://github.com/ftlabs/fastclick/issues/251
+      if (blackberryVersion[1] >= 10 && blackberryVersion[2] >= 3) {
+        metaViewport = document.querySelector("meta[name=viewport]");
+
+        if (metaViewport) {
+          // user-scalable=no eliminates click delay.
+          if (metaViewport.content.indexOf("user-scalable=no") !== -1) {
+            return true;
+          }
+          // width=device-width (or less than device-width) eliminates click delay.
+          if (document.documentElement.scrollWidth <= window.outerWidth) {
+            return true;
+          }
+        }
+      }
+    }
+
+    // IE10 with -ms-touch-action: none or manipulation, which disables double-tap-to-zoom (issue #97)
+    if (
+      layer.style.msTouchAction === "none" ||
+      layer.style.touchAction === "manipulation"
+    ) {
+      return true;
+    }
+
+    // Firefox version - zero for other browsers
+    firefoxVersion = +(/Firefox\/([0-9]+)/.exec(navigator.userAgent) || [
+      ,
+      0,
+    ])[1];
+
+    if (firefoxVersion >= 27) {
+      // Firefox 27+ does not have tap delay if the content is not zoomable - https://bugzilla.mozilla.org/show_bug.cgi?id=922896
+
+      metaViewport = document.querySelector("meta[name=viewport]");
+      if (
+        metaViewport &&
+        (metaViewport.content.indexOf("user-scalable=no") !== -1 ||
+          document.documentElement.scrollWidth <= window.outerWidth)
+      ) {
+        return true;
+      }
+    }
+
+    // IE11: prefixed -ms-touch-action is no longer supported and it's recomended to use non-prefixed version
+    // http://msdn.microsoft.com/en-us/library/windows/apps/Hh767313.aspx
+    if (
+      layer.style.touchAction === "none" ||
+      layer.style.touchAction === "manipulation"
+    ) {
+      return true;
+    }
+
+    return false;
+  };
+
+  /**
+   * Factory method for creating a FastClick object
+   *
+   * @param {Element} layer The layer to listen on
+   * @param {Object} [options={}] The options to override the defaults
+   */
+  FastClick.attach = function (layer, options) {
+    return new FastClick(layer, options);
+  };
+
+  if (
+    typeof define === "function" &&
+    typeof define.amd === "object" &&
+    define.amd
+  ) {
+    // AMD. Register as an anonymous module.
+    define(function () {
+      return FastClick;
+    });
+  } else if (typeof module !== "undefined" && module.exports) {
+    module.exports = FastClick.attach;
+    module.exports.FastClick = FastClick;
+  } else {
+    window.FastClick = FastClick;
+  }
+})();

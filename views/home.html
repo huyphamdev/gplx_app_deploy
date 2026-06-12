@@ -1,7 +1,8 @@
 <div class="top-header">
     <a href="#!setting" class="header-btn">Cài đặt</a>
     <div class="header-title">ÔN TẬP THI GPLX</div>
-    <a href="#!setting" class="header-btn" style="font-weight: bold; color: #ff9400; text-transform: uppercase;">{{ licenseCode.replace("_2025", "") }}</a>
+    <a href="#!setting" class="header-btn" style="font-weight: bold; color: #ff9400; text-transform: uppercase;">{{
+        licenseCode.replace("_2025", "") }}</a>
 </div>
 
 <div class="page-home-new">
@@ -35,7 +36,7 @@
     <div class="topic-section">
         <div class="section-title">Ôn tập theo chủ đề</div>
 
-        <a href="#!question?index=0&topic=1" class="topic-card">
+        <a href="#!question?index=0&topic=1" class="topic-card" ng-if="topicStats[1].total > 0">
             <div class="topic-icon">🚥</div>
             <div class="topic-content">
                 <div class="topic-title">Quy định chung và quy tắc giao thông đường bộ</div>
@@ -44,13 +45,14 @@
                 </div>
                 <div class="topic-stats">
                     <span class="left">{{topicStats[1].total}} câu hỏi</span>
-                    <span class="right"><span style="color: #0171ec;">{{topicStats[1].correct}} đúng</span> &nbsp; <span
+                    <span class="right" ng-if="topicStats[1].correct > 0 || topicStats[1].wrong > 0"><span
+                            style="color: #0171ec;">{{topicStats[1].correct}} đúng</span> &nbsp; <span
                             style="color: red;">{{topicStats[1].wrong}} sai</span></span>
                 </div>
             </div>
         </a>
 
-        <a href="#!question?index=0&topic=2" class="topic-card">
+        <a href="#!question?index=0&topic=2" class="topic-card" ng-if="topicStats[2].total > 0">
             <div class="topic-icon">🧑‍💼</div>
             <div class="topic-content">
                 <div class="topic-title">Văn hóa giao thông, đạo đức người lái xe, kỹ năng phòng cháy, chữa cháy và cứu
@@ -60,13 +62,14 @@
                 </div>
                 <div class="topic-stats">
                     <span class="left">{{topicStats[2].total}} câu hỏi</span>
-                    <span class="right"><span style="color: #0171ec;">{{topicStats[2].correct}} đúng</span> &nbsp; <span
+                    <span class="right" ng-if="topicStats[2].correct > 0 || topicStats[2].wrong > 0"><span
+                            style="color: #0171ec;">{{topicStats[2].correct}} đúng</span> &nbsp; <span
                             style="color: red;">{{topicStats[2].wrong}} sai</span></span>
                 </div>
             </div>
         </a>
 
-        <a href="#!question?index=0&topic=3" class="topic-card">
+        <a href="#!question?index=0&topic=3" class="topic-card" ng-if="topicStats[3].total > 0">
             <div class="topic-icon">🚗</div>
             <div class="topic-content">
                 <div class="topic-title">Kỹ thuật lái xe</div>
@@ -75,13 +78,46 @@
                 </div>
                 <div class="topic-stats">
                     <span class="left">{{topicStats[3].total}} câu hỏi</span>
-                    <span class="right"><span style="color: #0171ec;">{{topicStats[3].correct}} đúng</span> &nbsp; <span
+                    <span class="right" ng-if="topicStats[3].correct > 0 || topicStats[3].wrong > 0"><span
+                            style="color: #0171ec;">{{topicStats[3].correct}} đúng</span> &nbsp; <span
                             style="color: red;">{{topicStats[3].wrong}} sai</span></span>
                 </div>
             </div>
         </a>
 
-        <a href="#!question?index=0&topic=6" class="topic-card">
+        <a href="#!question?index=0&topic=4" class="topic-card" ng-if="topicStats[4].total > 0">
+            <div class="topic-icon">🔧</div>
+            <div class="topic-content">
+                <div class="topic-title">Cấu tạo và sửa chữa</div>
+                <div class="topic-progress-bar">
+                    <div class="topic-progress-fill" style="width: {{topicStats[4].progress}}%;"></div>
+                </div>
+                <div class="topic-stats">
+                    <span class="left">{{topicStats[4].total}} câu hỏi</span>
+                    <span class="right" ng-if="topicStats[4].correct > 0 || topicStats[4].wrong > 0"><span
+                            style="color: #0171ec;">{{topicStats[4].correct}} đúng</span> &nbsp; <span
+                            style="color: red;">{{topicStats[4].wrong}} sai</span></span>
+                </div>
+            </div>
+        </a>
+
+        <a href="#!question?index=0&topic=5" class="topic-card" ng-if="topicStats[5].total > 0">
+            <div class="topic-icon">🚸</div>
+            <div class="topic-content">
+                <div class="topic-title">Báo hiệu đường bộ</div>
+                <div class="topic-progress-bar">
+                    <div class="topic-progress-fill" style="width: {{topicStats[5].progress}}%;"></div>
+                </div>
+                <div class="topic-stats">
+                    <span class="left">{{topicStats[5].total}} câu hỏi</span>
+                    <span class="right" ng-if="topicStats[5].correct > 0 || topicStats[5].wrong > 0"><span
+                            style="color: #0171ec;">{{topicStats[5].correct}} đúng</span> &nbsp; <span
+                            style="color: red;">{{topicStats[5].wrong}} sai</span></span>
+                </div>
+            </div>
+        </a>
+
+        <a href="#!question?index=0&topic=6" class="topic-card" ng-if="topicStats[6].total > 0">
             <div class="topic-icon">🚦</div>
             <div class="topic-content">
                 <div class="topic-title">Giải thế sa hình và kỹ năng xử lý tình huống giao thông</div>
@@ -90,13 +126,14 @@
                 </div>
                 <div class="topic-stats">
                     <span class="left">{{topicStats[6].total}} câu hỏi</span>
-                    <span class="right"><span style="color: #0171ec;">{{topicStats[6].correct}} đúng</span> &nbsp; <span
+                    <span class="right" ng-if="topicStats[6].correct > 0 || topicStats[6].wrong > 0"><span
+                            style="color: #0171ec;">{{topicStats[6].correct}} đúng</span> &nbsp; <span
                             style="color: red;">{{topicStats[6].wrong}} sai</span></span>
                 </div>
             </div>
         </a>
 
-        <a href="#!question?index=0&topic=8" class="topic-card">
+        <a href="#!question?index=0&topic=8" class="topic-card" ng-if="topicStats[8].total > 0">
             <div class="topic-icon">🔥</div>
             <div class="topic-content">
                 <div class="topic-title">Câu liệt</div>
@@ -105,10 +142,13 @@
                 </div>
                 <div class="topic-stats">
                     <span class="left">{{topicStats[8].total}} câu hỏi</span>
-                    <span class="right"><span style="color: #0171ec;">{{topicStats[8].correct}} đúng</span> &nbsp; <span
+                    <span class="right" ng-if="topicStats[8].correct > 0 || topicStats[8].wrong > 0"><span
+                            style="color: #0171ec;">{{topicStats[8].correct}} đúng</span> &nbsp; <span
                             style="color: red;">{{topicStats[8].wrong}} sai</span></span>
                 </div>
             </div>
         </a>
+
+
     </div>
 </div>

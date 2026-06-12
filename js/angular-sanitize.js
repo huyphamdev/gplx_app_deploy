@@ -3,4 +3,979 @@
  * (c) 2010-2020 Google, Inc. http://angularjs.org
  * License: MIT
  */
-var a2_0x399997=a2_0x385b;function a2_0x385b(_0xdc0490,_0x38fbd6){_0xdc0490=_0xdc0490-0x13d;var _0x1e7508=a2_0x1e75();var _0x385b80=_0x1e7508[_0xdc0490];return _0x385b80;}(function(_0x2a6cec,_0x3c52e1){var _0x16ed7f=a2_0x385b,_0x3f8bd8=_0x2a6cec();while(!![]){try{var _0x36c00c=parseInt(_0x16ed7f(0x1ba))/0x1+parseInt(_0x16ed7f(0x159))/0x2*(parseInt(_0x16ed7f(0x1b6))/0x3)+parseInt(_0x16ed7f(0x16c))/0x4*(-parseInt(_0x16ed7f(0x156))/0x5)+-parseInt(_0x16ed7f(0x14a))/0x6+-parseInt(_0x16ed7f(0x19e))/0x7+parseInt(_0x16ed7f(0x150))/0x8*(-parseInt(_0x16ed7f(0x18d))/0x9)+-parseInt(_0x16ed7f(0x1a6))/0xa*(-parseInt(_0x16ed7f(0x15c))/0xb);if(_0x36c00c===_0x3c52e1)break;else _0x3f8bd8['push'](_0x3f8bd8['shift']());}catch(_0x23dae1){_0x3f8bd8['push'](_0x3f8bd8['shift']());}}}(a2_0x1e75,0x1edc5),function(_0x27dfa3,_0x26573d){'use strict';var _0x5108c8=a2_0x385b;var _0x1f4ab1=_0x26573d[_0x5108c8(0x17a)]('$sanitize'),_0x2ceb40,_0x555d38,_0x52a1ac,_0xf44653,_0x42e259,_0x407849,_0x496371,_0x22b034,_0x5c1620,_0x44bfa5;function _0x582568(){var _0x378b14=_0x5108c8,_0x104b7b=![],_0x3cb62e=![];this[_0x378b14(0x158)]=[_0x378b14(0x14e),function(_0x9eebac){return _0x104b7b=!![],_0x3cb62e&&_0x555d38(_0x1eef0c,_0x5876ea),function(_0x219bb6){var _0x39003b=a2_0x385b,_0x3c7ec3=[];return _0x5c1620(_0x219bb6,_0x44bfa5(_0x3c7ec3,function(_0x3d9023,_0x27d093){var _0x1dd0e9=a2_0x385b;return!/^unsafe:/[_0x1dd0e9(0x153)](_0x9eebac(_0x3d9023,_0x27d093));})),_0x3c7ec3[_0x39003b(0x1c1)]('');};}],this[_0x378b14(0x19d)]=function(_0x5006da){return _0x42e259(_0x5006da)?(_0x3cb62e=_0x5006da,this):_0x3cb62e;},this[_0x378b14(0x1bd)]=function(_0x255712){var _0x3f2c83=_0x378b14;return!_0x104b7b&&(_0xf44653(_0x255712)&&(_0x255712={'htmlElements':_0x255712}),_0x5b892c(_0x5876ea,_0x255712[_0x3f2c83(0x165)]),_0x5b892c(_0x3999d8,_0x255712[_0x3f2c83(0x14f)]),_0x5b892c(_0x1eef0c,_0x255712['htmlVoidElements']),_0x5b892c(_0x1eef0c,_0x255712[_0x3f2c83(0x185)])),this;},this[_0x378b14(0x1a4)]=function(_0x1fd9cc){return!_0x104b7b&&_0x555d38(_0x19f242,_0x4a3ee6(_0x1fd9cc,!![])),this;},_0x2ceb40=_0x26573d['bind'],_0x555d38=_0x26573d['extend'],_0x52a1ac=_0x26573d[_0x378b14(0x1b1)],_0xf44653=_0x26573d['isArray'],_0x42e259=_0x26573d[_0x378b14(0x1a1)],_0x407849=_0x26573d[_0x378b14(0x1be)],_0x496371=_0x26573d[_0x378b14(0x1a5)],_0x5c1620=_0x25c17e,_0x44bfa5=_0xeb53da,_0x22b034=_0x27dfa3[_0x378b14(0x192)][_0x378b14(0x146)][_0x378b14(0x162)]||function(_0x596999){var _0x4413d2=_0x378b14;return!!(this[_0x4413d2(0x19a)](_0x596999)&0x10);};var _0x3c9864=/[\uD800-\uDBFF][\uDC00-\uDFFF]/g,_0xcc287a=/([^#-~ |!])/g,_0x3999d8=_0x48de20('area,br,col,hr,img,wbr'),_0x16fb9f=_0x48de20('colgroup,dd,dt,li,p,tbody,td,tfoot,th,thead,tr'),_0x5b809f=_0x48de20(_0x378b14(0x197)),_0x1f55d4=_0x555d38({},_0x5b809f,_0x16fb9f),_0x6f722d=_0x555d38({},_0x16fb9f,_0x48de20(_0x378b14(0x1a0)+'aside,blockquote,caption,center,del,dir,div,dl,figure,figcaption,footer,h1,h2,h3,h4,h5,'+_0x378b14(0x14d))),_0x4fdea8=_0x555d38({},_0x5b809f,_0x48de20(_0x378b14(0x189)+_0x378b14(0x195)+_0x378b14(0x1b5))),_0x5876ea=_0x48de20(_0x378b14(0x188)+'hkern,image,linearGradient,line,marker,metadata,missing-glyph,mpath,path,polygon,polyline,'+_0x378b14(0x15e)),_0x326bfc=_0x48de20(_0x378b14(0x171)),_0x1eef0c=_0x555d38({},_0x3999d8,_0x6f722d,_0x4fdea8,_0x1f55d4),_0x5196f1=_0x48de20(_0x378b14(0x164)),_0x11cc80=_0x48de20(_0x378b14(0x19b)+_0x378b14(0x147)+_0x378b14(0x1bb)+'scope,scrolling,shape,size,span,start,summary,tabindex,target,title,type,'+_0x378b14(0x19f)),_0xe3bf4b=_0x48de20(_0x378b14(0x175)+_0x378b14(0x17f)+_0x378b14(0x1c5)+_0x378b14(0x16a)+_0x378b14(0x16e)+_0x378b14(0x17d)+'max,min,offset,opacity,orient,origin,overline-position,overline-thickness,panose-1,'+_0x378b14(0x199)+_0x378b14(0x169)+_0x378b14(0x167)+'stroke-dashoffset,stroke-linecap,stroke-linejoin,stroke-miterlimit,stroke-opacity,'+_0x378b14(0x176)+_0x378b14(0x190)+_0x378b14(0x1a8)+_0x378b14(0x17e),!![]),_0x19f242=_0x555d38({},_0x5196f1,_0xe3bf4b,_0x11cc80);function _0x48de20(_0x27f32d,_0xc0912){return _0x4a3ee6(_0x27f32d['split'](','),_0xc0912);}function _0x4a3ee6(_0x2faf0b,_0xbd1938){var _0x49b99b=_0x378b14,_0x2f9c0c={},_0x2aa50c;for(_0x2aa50c=0x0;_0x2aa50c<_0x2faf0b[_0x49b99b(0x157)];_0x2aa50c++){_0x2f9c0c[_0xbd1938?_0x407849(_0x2faf0b[_0x2aa50c]):_0x2faf0b[_0x2aa50c]]=!![];}return _0x2f9c0c;}function _0x5b892c(_0x485907,_0x46dbd){_0x46dbd&&_0x46dbd['length']&&_0x555d38(_0x485907,_0x4a3ee6(_0x46dbd));}var _0x48ce5e=function(_0x1ffd60,_0x3489a9){var _0x34440a=_0x378b14,_0x4018ef;if(_0x3489a9&&_0x3489a9[_0x34440a(0x15f)])_0x4018ef=_0x3489a9[_0x34440a(0x15f)][_0x34440a(0x13e)](_0x34440a(0x17c));else throw _0x1f4ab1(_0x34440a(0x18e),_0x34440a(0x198));var _0x5f4172=(_0x4018ef['documentElement']||_0x4018ef[_0x34440a(0x16d)]())[_0x34440a(0x194)](_0x34440a(0x142));_0x5f4172['innerHTML']='<svg><g\x20onload=\x22this.parentNode.remove()\x22></g></svg>';return!_0x5f4172[_0x34440a(0x194)](_0x34440a(0x180))?_0x5c64f0:(_0x5f4172[_0x34440a(0x152)]=_0x34440a(0x168),_0x5f4172[_0x34440a(0x194)](_0x34440a(0x178))?_0x27479c:_0x49fd3b);function _0x5c64f0(_0x23f28d){var _0x4e9603=_0x34440a;_0x23f28d='<remove></remove>'+_0x23f28d;try{_0x23f28d=encodeURI(_0x23f28d);}catch(_0x2ee8a4){return undefined;}var _0x5f41aa=new _0x1ffd60[(_0x4e9603(0x1bc))]();_0x5f41aa[_0x4e9603(0x161)]=_0x4e9603(0x141),_0x5f41aa['open'](_0x4e9603(0x196),_0x4e9603(0x181)+_0x23f28d,![]),_0x5f41aa['send'](null);var _0x4e7cd3=_0x5f41aa[_0x4e9603(0x145)][_0x4e9603(0x142)];return _0x4e7cd3[_0x4e9603(0x13d)][_0x4e9603(0x1ae)](),_0x4e7cd3;}function _0x27479c(_0x5bd4e2){var _0x2852f0=_0x34440a;_0x5bd4e2=_0x2852f0(0x13f)+_0x5bd4e2;try{var _0x24e755=new _0x1ffd60['DOMParser']()[_0x2852f0(0x170)](_0x5bd4e2,_0x2852f0(0x179))['body'];return _0x24e755[_0x2852f0(0x13d)][_0x2852f0(0x1ae)](),_0x24e755;}catch(_0x68f865){return undefined;}}function _0x49fd3b(_0xc480ba){var _0x52441a=_0x34440a;return _0x5f4172[_0x52441a(0x152)]=_0xc480ba,_0x3489a9[_0x52441a(0x14b)]&&_0x30e209(_0x5f4172),_0x5f4172;}}(_0x27dfa3,_0x27dfa3['document']);function _0x25c17e(_0x3669bb,_0x38a8ab){var _0x526b7c=_0x378b14;if(_0x3669bb===null||_0x3669bb===undefined)_0x3669bb='';else typeof _0x3669bb!==_0x526b7c(0x15a)&&(_0x3669bb=''+_0x3669bb);var _0x1529a1=_0x48ce5e(_0x3669bb);if(!_0x1529a1)return'';var _0xe86a67=0x5;do{if(_0xe86a67===0x0)throw _0x1f4ab1(_0x526b7c(0x1b8),_0x526b7c(0x160));_0xe86a67--,_0x3669bb=_0x1529a1[_0x526b7c(0x152)],_0x1529a1=_0x48ce5e(_0x3669bb);}while(_0x3669bb!==_0x1529a1[_0x526b7c(0x152)]);var _0x280c5b=_0x1529a1[_0x526b7c(0x13d)];while(_0x280c5b){switch(_0x280c5b[_0x526b7c(0x143)]){case 0x1:_0x38a8ab[_0x526b7c(0x1b3)](_0x280c5b['nodeName'][_0x526b7c(0x173)](),_0x286b61(_0x280c5b['attributes']));break;case 0x3:_0x38a8ab[_0x526b7c(0x1ab)](_0x280c5b[_0x526b7c(0x18c)]);break;}var _0x380371;if(!(_0x380371=_0x280c5b['firstChild'])){_0x280c5b[_0x526b7c(0x143)]===0x1&&_0x38a8ab[_0x526b7c(0x1ac)](_0x280c5b['nodeName'][_0x526b7c(0x173)]());_0x380371=_0x28b4bf(_0x526b7c(0x18b),_0x280c5b);if(!_0x380371)while(_0x380371==null){_0x280c5b=_0x28b4bf('parentNode',_0x280c5b);if(_0x280c5b===_0x1529a1)break;_0x380371=_0x28b4bf('nextSibling',_0x280c5b),_0x280c5b[_0x526b7c(0x143)]===0x1&&_0x38a8ab[_0x526b7c(0x1ac)](_0x280c5b[_0x526b7c(0x184)][_0x526b7c(0x173)]());}}_0x280c5b=_0x380371;}while(_0x280c5b=_0x1529a1['firstChild']){_0x1529a1[_0x526b7c(0x193)](_0x280c5b);}}function _0x286b61(_0x41438e){var _0x535785=_0x378b14,_0x4cba3f={};for(var _0x50b966=0x0,_0x39637a=_0x41438e[_0x535785(0x157)];_0x50b966<_0x39637a;_0x50b966++){var _0xd62edc=_0x41438e[_0x50b966];_0x4cba3f[_0xd62edc[_0x535785(0x149)]]=_0xd62edc[_0x535785(0x148)];}return _0x4cba3f;}function _0x43faf5(_0x52da8e){var _0x4bd6a8=_0x378b14;return _0x52da8e[_0x4bd6a8(0x1a7)](/&/g,_0x4bd6a8(0x172))[_0x4bd6a8(0x1a7)](_0x3c9864,function(_0x6325fc){var _0x507f05=_0x4bd6a8,_0x1dc2d4=_0x6325fc[_0x507f05(0x1b7)](0x0),_0x58e99=_0x6325fc[_0x507f05(0x1b7)](0x1);return'&#'+((_0x1dc2d4-0xd800)*0x400+(_0x58e99-0xdc00)+0x10000)+';';})[_0x4bd6a8(0x1a7)](_0xcc287a,function(_0x34d4de){var _0x532f26=_0x4bd6a8;return'&#'+_0x34d4de[_0x532f26(0x1b7)](0x0)+';';})[_0x4bd6a8(0x1a7)](/</g,_0x4bd6a8(0x177))[_0x4bd6a8(0x1a7)](/>/g,_0x4bd6a8(0x1c4));}function _0xeb53da(_0x12ebfa,_0x20e249){var _0x616330=![],_0x5f0c4c=_0x2ceb40(_0x12ebfa,_0x12ebfa['push']);return{'start':function(_0x5d3605,_0x3e0d9b){_0x5d3605=_0x407849(_0x5d3605),!_0x616330&&_0x326bfc[_0x5d3605]&&(_0x616330=_0x5d3605),!_0x616330&&_0x1eef0c[_0x5d3605]===!![]&&(_0x5f0c4c('<'),_0x5f0c4c(_0x5d3605),_0x52a1ac(_0x3e0d9b,function(_0x529a8b,_0xde6573){var _0x19f037=a2_0x385b,_0x5600d2=_0x407849(_0xde6573),_0x5667aa=_0x5d3605===_0x19f037(0x183)&&_0x5600d2==='src'||_0x5600d2===_0x19f037(0x187);_0x19f242[_0x5600d2]===!![]&&(_0x5196f1[_0x5600d2]!==!![]||_0x20e249(_0x529a8b,_0x5667aa))&&(_0x5f0c4c('\x20'),_0x5f0c4c(_0xde6573),_0x5f0c4c('=\x22'),_0x5f0c4c(_0x43faf5(_0x529a8b)),_0x5f0c4c('\x22'));}),_0x5f0c4c('>'));},'end':function(_0x1612b9){_0x1612b9=_0x407849(_0x1612b9),!_0x616330&&_0x1eef0c[_0x1612b9]===!![]&&_0x3999d8[_0x1612b9]!==!![]&&(_0x5f0c4c('</'),_0x5f0c4c(_0x1612b9),_0x5f0c4c('>')),_0x1612b9==_0x616330&&(_0x616330=![]);},'chars':function(_0x3ae13f){!_0x616330&&_0x5f0c4c(_0x43faf5(_0x3ae13f));}};}function _0x30e209(_0x112ca4){var _0x49302c=_0x378b14;while(_0x112ca4){if(_0x112ca4[_0x49302c(0x143)]===_0x27dfa3['Node'][_0x49302c(0x1a9)]){var _0x3f6d45=_0x112ca4[_0x49302c(0x15b)];for(var _0x3a2d9b=0x0,_0x4aa92b=_0x3f6d45[_0x49302c(0x157)];_0x3a2d9b<_0x4aa92b;_0x3a2d9b++){var _0x1fdd62=_0x3f6d45[_0x3a2d9b],_0x477160=_0x1fdd62[_0x49302c(0x149)][_0x49302c(0x173)]();(_0x477160===_0x49302c(0x16f)||_0x477160[_0x49302c(0x1a3)](_0x49302c(0x191),0x0)===0x0)&&(_0x112ca4[_0x49302c(0x14c)](_0x1fdd62),_0x3a2d9b--,_0x4aa92b--);}}var _0x432925=_0x112ca4[_0x49302c(0x13d)];_0x432925&&_0x30e209(_0x432925),_0x112ca4=_0x28b4bf('nextSibling',_0x112ca4);}}function _0x28b4bf(_0x334a45,_0x22091b){var _0x37bc6a=_0x378b14,_0x54614e=_0x22091b[_0x334a45];if(_0x54614e&&_0x22b034[_0x37bc6a(0x186)](_0x22091b,_0x54614e))throw _0x1f4ab1(_0x37bc6a(0x154),_0x37bc6a(0x1c0),_0x22091b[_0x37bc6a(0x1c2)]||_0x22091b[_0x37bc6a(0x182)]);return _0x54614e;}}function _0x102c3b(_0x47972a){var _0x4ed85a=_0x5108c8,_0x571206=[],_0x5782fa=_0x44bfa5(_0x571206,_0x496371);return _0x5782fa[_0x4ed85a(0x1ab)](_0x47972a),_0x571206[_0x4ed85a(0x1c1)]('');}_0x26573d[_0x5108c8(0x16b)](_0x5108c8(0x1b2),[])[_0x5108c8(0x15d)](_0x5108c8(0x1aa),_0x582568)['info']({'angularVersion':_0x5108c8(0x174)}),_0x26573d[_0x5108c8(0x16b)](_0x5108c8(0x1b2))[_0x5108c8(0x18a)](_0x5108c8(0x1b0),['$sanitize',function(_0x2a8060){var _0x51159d=_0x5108c8,_0x349b35=/((s?ftp|https?):\/\/|(www\.)|(mailto:)?[A-Za-z0-9._%+-]+@)\S*[^\s.;,(){}<>"\u201d\u2019]/i,_0x42da51=/^mailto:/i,_0xbe0f44=_0x26573d[_0x51159d(0x17a)](_0x51159d(0x1b0)),_0x55c026=_0x26573d['isDefined'],_0x19fd8e=_0x26573d[_0x51159d(0x1af)],_0x24ff53=_0x26573d[_0x51159d(0x1bf)],_0x1ff1d1=_0x26573d[_0x51159d(0x1b4)];return function(_0x487136,_0x37b670,_0x490156){var _0x13f5a0=_0x51159d;if(_0x487136==null||_0x487136==='')return _0x487136;if(!_0x1ff1d1(_0x487136))throw _0xbe0f44('notstring',_0x13f5a0(0x151),_0x487136);var _0x12d3b5=_0x19fd8e(_0x490156)?_0x490156:_0x24ff53(_0x490156)?function _0x5d3188(){return _0x490156;}:function _0x545280(){return{};},_0x410ffc,_0xce56e5=_0x487136,_0x592dd0=[],_0x447cbb,_0x1625c2;while(_0x410ffc=_0xce56e5[_0x13f5a0(0x166)](_0x349b35)){_0x447cbb=_0x410ffc[0x0],!_0x410ffc[0x2]&&!_0x410ffc[0x4]&&(_0x447cbb=(_0x410ffc[0x3]?'http://':_0x13f5a0(0x140))+_0x447cbb),_0x1625c2=_0x410ffc[_0x13f5a0(0x155)],_0x551062(_0xce56e5[_0x13f5a0(0x19c)](0x0,_0x1625c2)),_0x2d44f6(_0x447cbb,_0x410ffc[0x0][_0x13f5a0(0x1a7)](_0x42da51,'')),_0xce56e5=_0xce56e5[_0x13f5a0(0x1c3)](_0x1625c2+_0x410ffc[0x0][_0x13f5a0(0x157)]);}_0x551062(_0xce56e5);return _0x2a8060(_0x592dd0[_0x13f5a0(0x1c1)](''));function _0x551062(_0x3d8dd2){if(!_0x3d8dd2)return;_0x592dd0['push'](_0x102c3b(_0x3d8dd2));}function _0x2d44f6(_0xd71fe3,_0x5645c0){var _0x5d7d5e=_0x13f5a0,_0x11d666,_0x51f6c0=_0x12d3b5(_0xd71fe3);_0x592dd0[_0x5d7d5e(0x17b)]('<a\x20');for(_0x11d666 in _0x51f6c0){_0x592dd0[_0x5d7d5e(0x17b)](_0x11d666+'=\x22'+_0x51f6c0[_0x11d666]+'\x22\x20');}_0x55c026(_0x37b670)&&!(_0x5d7d5e(0x144)in _0x51f6c0)&&_0x592dd0[_0x5d7d5e(0x17b)](_0x5d7d5e(0x1b9),_0x37b670,'\x22\x20'),_0x592dd0[_0x5d7d5e(0x17b)](_0x5d7d5e(0x1a2),_0xd71fe3[_0x5d7d5e(0x1a7)](/"/g,_0x5d7d5e(0x163)),'\x22>'),_0x551062(_0x5645c0),_0x592dd0[_0x5d7d5e(0x17b)](_0x5d7d5e(0x18f));}};}]);}(window,window[a2_0x399997(0x1ad)]));function a2_0x1e75(){var _0x2c1b16=['ns1:','Node','removeChild','querySelector','bdi,bdo,big,br,cite,code,del,dfn,em,font,i,img,ins,kbd,label,map,mark,q,ruby,rp,rt,s,','GET','rp,rt','Can\x27t\x20create\x20an\x20inert\x20html\x20document','path,pathLength,points,preserveAspectRatio,r,refX,refY,repeatCount,repeatDur,','compareDocumentPosition','abbr,align,alt,axis,bgcolor,border,cellpadding,cellspacing,class,clear,','substr','enableSvg','1250060gkZtxg','valign,value,vspace,width','address,article,','isDefined','href=\x22','lastIndexOf','addValidAttrs','noop','44020GNVjsb','replace','width,widths,x,x-height,x1,x2,xlink:actuate,xlink:arcrole,xlink:role,xlink:show,xlink:title,','ELEMENT_NODE','$sanitize','chars','end','angular','remove','isFunction','linky','forEach','ngSanitize','start','isString','samp,small,span,strike,strong,sub,sup,time,tt,u,var','6093lAvyRD','charCodeAt','uinput','target=\x22','46209BCEHlO','ismap,lang,language,nohref,nowrap,rel,rev,rows,rowspan,rules,','XMLHttpRequest','addValidElements','$$lowercase','isObject','Failed\x20to\x20sanitize\x20html\x20because\x20the\x20element\x20is\x20clobbered:\x20{0}','join','outerHTML','substring','&gt;','cx,cy,d,dx,dy,descent,display,dur,end,fill,fill-rule,font-family,font-size,font-stretch,','firstChild','createHTMLDocument','<remove></remove>','mailto:','document','body','nodeType','target','response','prototype','color,cols,colspan,compact,coords,dir,face,headers,height,hreflang,hspace,','value','name','1017558uQJThX','documentMode','removeAttributeNode','h6,header,hgroup,hr,ins,map,menu,nav,ol,pre,section,table,ul','$$sanitizeUri','htmlVoidElements','144136nbFTwO','Expected\x20string\x20but\x20received:\x20{0}','innerHTML','test','elclob','index','25lrQTrl','length','$get','152cTymEu','string','attributes','1507SKxnSh','provider','radialGradient,rect,stop,svg,switch,text,title,tspan','implementation','Failed\x20to\x20sanitize\x20html\x20because\x20the\x20input\x20is\x20unstable','responseType','contains','&quot;','background,cite,href,longdesc,src,xlink:href,xml:base','svgElements','match','stop-opacity,strikethrough-position,strikethrough-thickness,stroke,stroke-dasharray,','<svg><p><style><img\x20src=\x22</style><img\x20src=x\x20onerror=alert(1)//\x22>','requiredExtensions,requiredFeatures,restart,rotate,rx,ry,slope,stemh,stemv,stop-color,','font-style,font-variant,font-weight,from,fx,fy,g1,g2,glyph-name,gradientUnits,hanging,','module','147940HUrGgF','getDocumentElement','height,horiz-adv-x,horiz-origin-x,ideographic,k,keyPoints,keySplines,keyTimes,lang,','xmlns:ns1','parseFromString','script,style','&amp;','toLowerCase','1.8.0','accent-height,accumulate,additive,alphabetic,arabic-form,ascent,','stroke-width,systemLanguage,target,text-anchor,to,transform,type,u1,u2,underline-position,','&lt;','svg\x20img','text/html','$$minErr','push','inert','marker-end,marker-mid,marker-start,markerHeight,markerUnits,markerWidth,mathematical,','xlink:type,xml:base,xml:lang,xml:space,xmlns,xmlns:xlink,y,y1,y2,zoomAndPan','baseProfile,bbox,begin,by,calcMode,cap-height,class,color,color-rendering,content,','svg','data:text/html;charset=utf-8,','outerText','img','nodeName','htmlElements','call','background','circle,defs,desc,ellipse,font-face,font-face-name,font-face-src,g,glyph,','a,abbr,acronym,b,','filter','nextSibling','textContent','72qpXcyR','noinert','</a>','underline-thickness,unicode,unicode-range,units-per-em,values,version,viewBox,visibility,'];a2_0x1e75=function(){return _0x2c1b16;};return a2_0x1e75();}
+(function (window, angular) {
+  "use strict";
+
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+   *     Any commits to this file should be reviewed with security in mind.  *
+   *   Changes to this file can potentially create security vulnerabilities. *
+   *          An approval from 2 Core members with history of modifying      *
+   *                         this file is required.                          *
+   *                                                                         *
+   *  Does the change somehow allow for arbitrary javascript to be executed? *
+   *    Or allows for someone to change the prototype of built-in objects?   *
+   *     Or gives undesired access to variables likes document or window?    *
+   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+  var $sanitizeMinErr = angular.$$minErr("$sanitize");
+  var bind;
+  var extend;
+  var forEach;
+  var isArray;
+  var isDefined;
+  var lowercase;
+  var noop;
+  var nodeContains;
+  var htmlParser;
+  var htmlSanitizeWriter;
+
+  /**
+   * @ngdoc module
+   * @name ngSanitize
+   * @description
+   *
+   * The `ngSanitize` module provides functionality to sanitize HTML.
+   *
+   * See {@link ngSanitize.$sanitize `$sanitize`} for usage.
+   */
+
+  /**
+ * @ngdoc service
+ * @name $sanitize
+ * @kind function
+ *
+ * @description
+ *   Sanitizes an html string by stripping all potentially dangerous tokens.
+ *
+ *   The input is sanitized by parsing the HTML into tokens. All safe tokens (from a whitelist) are
+ *   then serialized back to a properly escaped HTML string. This means that no unsafe input can make
+ *   it into the returned string.
+ *
+ *   The whitelist for URL sanitization of attribute values is configured using the functions
+ *   `aHrefSanitizationWhitelist` and `imgSrcSanitizationWhitelist` of {@link $compileProvider}.
+ *
+ *   The input may also contain SVG markup if this is enabled via {@link $sanitizeProvider}.
+ *
+ * @param {string} html HTML input.
+ * @returns {string} Sanitized HTML.
+ *
+ * @example
+   <example module="sanitizeExample" deps="angular-sanitize.js" name="sanitize-service">
+   <file name="index.html">
+     <script>
+         angular.module('sanitizeExample', ['ngSanitize'])
+           .controller('ExampleController', ['$scope', '$sce', function($scope, $sce) {
+             $scope.snippet =
+               '<p style="color:blue">an html\n' +
+               '<em onmouseover="this.textContent=\'PWN3D!\'">click here</em>\n' +
+               'snippet</p>';
+             $scope.deliberatelyTrustDangerousSnippet = function() {
+               return $sce.trustAsHtml($scope.snippet);
+             };
+           }]);
+     </script>
+     <div ng-controller="ExampleController">
+        Snippet: <textarea ng-model="snippet" cols="60" rows="3"></textarea>
+       <table>
+         <tr>
+           <td>Directive</td>
+           <td>How</td>
+           <td>Source</td>
+           <td>Rendered</td>
+         </tr>
+         <tr id="bind-html-with-sanitize">
+           <td>ng-bind-html</td>
+           <td>Automatically uses $sanitize</td>
+           <td><pre>&lt;div ng-bind-html="snippet"&gt;<br/>&lt;/div&gt;</pre></td>
+           <td><div ng-bind-html="snippet"></div></td>
+         </tr>
+         <tr id="bind-html-with-trust">
+           <td>ng-bind-html</td>
+           <td>Bypass $sanitize by explicitly trusting the dangerous value</td>
+           <td>
+           <pre>&lt;div ng-bind-html="deliberatelyTrustDangerousSnippet()"&gt;
+&lt;/div&gt;</pre>
+           </td>
+           <td><div ng-bind-html="deliberatelyTrustDangerousSnippet()"></div></td>
+         </tr>
+         <tr id="bind-default">
+           <td>ng-bind</td>
+           <td>Automatically escapes</td>
+           <td><pre>&lt;div ng-bind="snippet"&gt;<br/>&lt;/div&gt;</pre></td>
+           <td><div ng-bind="snippet"></div></td>
+         </tr>
+       </table>
+       </div>
+   </file>
+   <file name="protractor.js" type="protractor">
+     it('should sanitize the html snippet by default', function() {
+       expect(element(by.css('#bind-html-with-sanitize div')).getAttribute('innerHTML')).
+         toBe('<p>an html\n<em>click here</em>\nsnippet</p>');
+     });
+
+     it('should inline raw snippet if bound to a trusted value', function() {
+       expect(element(by.css('#bind-html-with-trust div')).getAttribute('innerHTML')).
+         toBe("<p style=\"color:blue\">an html\n" +
+              "<em onmouseover=\"this.textContent='PWN3D!'\">click here</em>\n" +
+              "snippet</p>");
+     });
+
+     it('should escape snippet without any filter', function() {
+       expect(element(by.css('#bind-default div')).getAttribute('innerHTML')).
+         toBe("&lt;p style=\"color:blue\"&gt;an html\n" +
+              "&lt;em onmouseover=\"this.textContent='PWN3D!'\"&gt;click here&lt;/em&gt;\n" +
+              "snippet&lt;/p&gt;");
+     });
+
+     it('should update', function() {
+       element(by.model('snippet')).clear();
+       element(by.model('snippet')).sendKeys('new <b onclick="alert(1)">text</b>');
+       expect(element(by.css('#bind-html-with-sanitize div')).getAttribute('innerHTML')).
+         toBe('new <b>text</b>');
+       expect(element(by.css('#bind-html-with-trust div')).getAttribute('innerHTML')).toBe(
+         'new <b onclick="alert(1)">text</b>');
+       expect(element(by.css('#bind-default div')).getAttribute('innerHTML')).toBe(
+         "new &lt;b onclick=\"alert(1)\"&gt;text&lt;/b&gt;");
+     });
+   </file>
+   </example>
+ */
+
+  /**
+   * @ngdoc provider
+   * @name $sanitizeProvider
+   * @this
+   *
+   * @description
+   * Creates and configures {@link $sanitize} instance.
+   */
+  function $SanitizeProvider() {
+    var hasBeenInstantiated = false;
+    var svgEnabled = false;
+
+    this.$get = [
+      "$$sanitizeUri",
+      function ($$sanitizeUri) {
+        hasBeenInstantiated = true;
+        if (svgEnabled) {
+          extend(validElements, svgElements);
+        }
+        return function (html) {
+          var buf = [];
+          htmlParser(
+            html,
+            htmlSanitizeWriter(buf, function (uri, isImage) {
+              return !/^unsafe:/.test($$sanitizeUri(uri, isImage));
+            }),
+          );
+          return buf.join("");
+        };
+      },
+    ];
+
+    /**
+     * @ngdoc method
+     * @name $sanitizeProvider#enableSvg
+     * @kind function
+     *
+     * @description
+     * Enables a subset of svg to be supported by the sanitizer.
+     *
+     * <div class="alert alert-warning">
+     *   <p>By enabling this setting without taking other precautions, you might expose your
+     *   application to click-hijacking attacks. In these attacks, sanitized svg elements could be positioned
+     *   outside of the containing element and be rendered over other elements on the page (e.g. a login
+     *   link). Such behavior can then result in phishing incidents.</p>
+     *
+     *   <p>To protect against these, explicitly setup `overflow: hidden` css rule for all potential svg
+     *   tags within the sanitized content:</p>
+     *
+     *   <br>
+     *
+     *   <pre><code>
+     *   .rootOfTheIncludedContent svg {
+     *     overflow: hidden !important;
+     *   }
+     *   </code></pre>
+     * </div>
+     *
+     * @param {boolean=} flag Enable or disable SVG support in the sanitizer.
+     * @returns {boolean|$sanitizeProvider} Returns the currently configured value if called
+     *    without an argument or self for chaining otherwise.
+     */
+    this.enableSvg = function (enableSvg) {
+      if (isDefined(enableSvg)) {
+        svgEnabled = enableSvg;
+        return this;
+      } else {
+        return svgEnabled;
+      }
+    };
+
+    /**
+     * @ngdoc method
+     * @name $sanitizeProvider#addValidElements
+     * @kind function
+     *
+     * @description
+     * Extends the built-in lists of valid HTML/SVG elements, i.e. elements that are considered safe
+     * and are not stripped off during sanitization. You can extend the following lists of elements:
+     *
+     * - `htmlElements`: A list of elements (tag names) to extend the current list of safe HTML
+     *   elements. HTML elements considered safe will not be removed during sanitization. All other
+     *   elements will be stripped off.
+     *
+     * - `htmlVoidElements`: This is similar to `htmlElements`, but marks the elements as
+     *   "void elements" (similar to HTML
+     *   [void elements](https://rawgit.com/w3c/html/html5.1-2/single-page.html#void-elements)). These
+     *   elements have no end tag and cannot have content.
+     *
+     * - `svgElements`: This is similar to `htmlElements`, but for SVG elements. This list is only
+     *   taken into account if SVG is {@link ngSanitize.$sanitizeProvider#enableSvg enabled} for
+     *   `$sanitize`.
+     *
+     * <div class="alert alert-info">
+     *   This method must be called during the {@link angular.Module#config config} phase. Once the
+     *   `$sanitize` service has been instantiated, this method has no effect.
+     * </div>
+     *
+     * <div class="alert alert-warning">
+     *   Keep in mind that extending the built-in lists of elements may expose your app to XSS or
+     *   other vulnerabilities. Be very mindful of the elements you add.
+     * </div>
+     *
+     * @param {Array<String>|Object} elements - A list of valid HTML elements or an object with one or
+     *   more of the following properties:
+     *   - **htmlElements** - `{Array<String>}` - A list of elements to extend the current list of
+     *     HTML elements.
+     *   - **htmlVoidElements** - `{Array<String>}` - A list of elements to extend the current list of
+     *     void HTML elements; i.e. elements that do not have an end tag.
+     *   - **svgElements** - `{Array<String>}` - A list of elements to extend the current list of SVG
+     *     elements. The list of SVG elements is only taken into account if SVG is
+     *     {@link ngSanitize.$sanitizeProvider#enableSvg enabled} for `$sanitize`.
+     *
+     * Passing an array (`[...]`) is equivalent to passing `{htmlElements: [...]}`.
+     *
+     * @return {$sanitizeProvider} Returns self for chaining.
+     */
+    this.addValidElements = function (elements) {
+      if (!hasBeenInstantiated) {
+        if (isArray(elements)) {
+          elements = { htmlElements: elements };
+        }
+
+        addElementsTo(svgElements, elements.svgElements);
+        addElementsTo(voidElements, elements.htmlVoidElements);
+        addElementsTo(validElements, elements.htmlVoidElements);
+        addElementsTo(validElements, elements.htmlElements);
+      }
+
+      return this;
+    };
+
+    /**
+     * @ngdoc method
+     * @name $sanitizeProvider#addValidAttrs
+     * @kind function
+     *
+     * @description
+     * Extends the built-in list of valid attributes, i.e. attributes that are considered safe and are
+     * not stripped off during sanitization.
+     *
+     * **Note**:
+     * The new attributes will not be treated as URI attributes, which means their values will not be
+     * sanitized as URIs using `$compileProvider`'s
+     * {@link ng.$compileProvider#aHrefSanitizationWhitelist aHrefSanitizationWhitelist} and
+     * {@link ng.$compileProvider#imgSrcSanitizationWhitelist imgSrcSanitizationWhitelist}.
+     *
+     * <div class="alert alert-info">
+     *   This method must be called during the {@link angular.Module#config config} phase. Once the
+     *   `$sanitize` service has been instantiated, this method has no effect.
+     * </div>
+     *
+     * <div class="alert alert-warning">
+     *   Keep in mind that extending the built-in list of attributes may expose your app to XSS or
+     *   other vulnerabilities. Be very mindful of the attributes you add.
+     * </div>
+     *
+     * @param {Array<String>} attrs - A list of valid attributes.
+     *
+     * @returns {$sanitizeProvider} Returns self for chaining.
+     */
+    this.addValidAttrs = function (attrs) {
+      if (!hasBeenInstantiated) {
+        extend(validAttrs, arrayToMap(attrs, true));
+      }
+      return this;
+    };
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////
+    // Private stuff
+    //////////////////////////////////////////////////////////////////////////////////////////////////
+
+    bind = angular.bind;
+    extend = angular.extend;
+    forEach = angular.forEach;
+    isArray = angular.isArray;
+    isDefined = angular.isDefined;
+    lowercase = angular.$$lowercase;
+    noop = angular.noop;
+
+    htmlParser = htmlParserImpl;
+    htmlSanitizeWriter = htmlSanitizeWriterImpl;
+
+    nodeContains =
+      window.Node.prototype.contains ||
+      /** @this */ function (arg) {
+        // eslint-disable-next-line no-bitwise
+        return !!(this.compareDocumentPosition(arg) & 16);
+      };
+
+    // Regular Expressions for parsing tags and attributes
+    var SURROGATE_PAIR_REGEXP = /[\uD800-\uDBFF][\uDC00-\uDFFF]/g,
+      // Match everything outside of normal chars and " (quote character)
+      NON_ALPHANUMERIC_REGEXP = /([^#-~ |!])/g;
+
+    // Good source of info about elements and attributes
+    // http://dev.w3.org/html5/spec/Overview.html#semantics
+    // http://simon.html5.org/html-elements
+
+    // Safe Void Elements - HTML5
+    // http://dev.w3.org/html5/spec/Overview.html#void-elements
+    var voidElements = stringToMap("area,br,col,hr,img,wbr");
+
+    // Elements that you can, intentionally, leave open (and which close themselves)
+    // http://dev.w3.org/html5/spec/Overview.html#optional-tags
+    var optionalEndTagBlockElements = stringToMap(
+        "colgroup,dd,dt,li,p,tbody,td,tfoot,th,thead,tr",
+      ),
+      optionalEndTagInlineElements = stringToMap("rp,rt"),
+      optionalEndTagElements = extend(
+        {},
+        optionalEndTagInlineElements,
+        optionalEndTagBlockElements,
+      );
+
+    // Safe Block Elements - HTML5
+    var blockElements = extend(
+      {},
+      optionalEndTagBlockElements,
+      stringToMap(
+        "address,article," +
+          "aside,blockquote,caption,center,del,dir,div,dl,figure,figcaption,footer,h1,h2,h3,h4,h5," +
+          "h6,header,hgroup,hr,ins,map,menu,nav,ol,pre,section,table,ul",
+      ),
+    );
+
+    // Inline Elements - HTML5
+    var inlineElements = extend(
+      {},
+      optionalEndTagInlineElements,
+      stringToMap(
+        "a,abbr,acronym,b," +
+          "bdi,bdo,big,br,cite,code,del,dfn,em,font,i,img,ins,kbd,label,map,mark,q,ruby,rp,rt,s," +
+          "samp,small,span,strike,strong,sub,sup,time,tt,u,var",
+      ),
+    );
+
+    // SVG Elements
+    // https://wiki.whatwg.org/wiki/Sanitization_rules#svg_Elements
+    // Note: the elements animate,animateColor,animateMotion,animateTransform,set are intentionally omitted.
+    // They can potentially allow for arbitrary javascript to be executed. See #11290
+    var svgElements = stringToMap(
+      "circle,defs,desc,ellipse,font-face,font-face-name,font-face-src,g,glyph," +
+        "hkern,image,linearGradient,line,marker,metadata,missing-glyph,mpath,path,polygon,polyline," +
+        "radialGradient,rect,stop,svg,switch,text,title,tspan",
+    );
+
+    // Blocked Elements (will be stripped)
+    var blockedElements = stringToMap("script,style");
+
+    var validElements = extend(
+      {},
+      voidElements,
+      blockElements,
+      inlineElements,
+      optionalEndTagElements,
+    );
+
+    //Attributes that have href and hence need to be sanitized
+    var uriAttrs = stringToMap(
+      "background,cite,href,longdesc,src,xlink:href,xml:base",
+    );
+
+    var htmlAttrs = stringToMap(
+      "abbr,align,alt,axis,bgcolor,border,cellpadding,cellspacing,class,clear," +
+        "color,cols,colspan,compact,coords,dir,face,headers,height,hreflang,hspace," +
+        "ismap,lang,language,nohref,nowrap,rel,rev,rows,rowspan,rules," +
+        "scope,scrolling,shape,size,span,start,summary,tabindex,target,title,type," +
+        "valign,value,vspace,width",
+    );
+
+    // SVG attributes (without "id" and "name" attributes)
+    // https://wiki.whatwg.org/wiki/Sanitization_rules#svg_Attributes
+    var svgAttrs = stringToMap(
+      "accent-height,accumulate,additive,alphabetic,arabic-form,ascent," +
+        "baseProfile,bbox,begin,by,calcMode,cap-height,class,color,color-rendering,content," +
+        "cx,cy,d,dx,dy,descent,display,dur,end,fill,fill-rule,font-family,font-size,font-stretch," +
+        "font-style,font-variant,font-weight,from,fx,fy,g1,g2,glyph-name,gradientUnits,hanging," +
+        "height,horiz-adv-x,horiz-origin-x,ideographic,k,keyPoints,keySplines,keyTimes,lang," +
+        "marker-end,marker-mid,marker-start,markerHeight,markerUnits,markerWidth,mathematical," +
+        "max,min,offset,opacity,orient,origin,overline-position,overline-thickness,panose-1," +
+        "path,pathLength,points,preserveAspectRatio,r,refX,refY,repeatCount,repeatDur," +
+        "requiredExtensions,requiredFeatures,restart,rotate,rx,ry,slope,stemh,stemv,stop-color," +
+        "stop-opacity,strikethrough-position,strikethrough-thickness,stroke,stroke-dasharray," +
+        "stroke-dashoffset,stroke-linecap,stroke-linejoin,stroke-miterlimit,stroke-opacity," +
+        "stroke-width,systemLanguage,target,text-anchor,to,transform,type,u1,u2,underline-position," +
+        "underline-thickness,unicode,unicode-range,units-per-em,values,version,viewBox,visibility," +
+        "width,widths,x,x-height,x1,x2,xlink:actuate,xlink:arcrole,xlink:role,xlink:show,xlink:title," +
+        "xlink:type,xml:base,xml:lang,xml:space,xmlns,xmlns:xlink,y,y1,y2,zoomAndPan",
+      true,
+    );
+
+    var validAttrs = extend({}, uriAttrs, svgAttrs, htmlAttrs);
+
+    function stringToMap(str, lowercaseKeys) {
+      return arrayToMap(str.split(","), lowercaseKeys);
+    }
+
+    function arrayToMap(items, lowercaseKeys) {
+      var obj = {},
+        i;
+      for (i = 0; i < items.length; i++) {
+        obj[lowercaseKeys ? lowercase(items[i]) : items[i]] = true;
+      }
+      return obj;
+    }
+
+    function addElementsTo(elementsMap, newElements) {
+      if (newElements && newElements.length) {
+        extend(elementsMap, arrayToMap(newElements));
+      }
+    }
+
+    /**
+     * Create an inert document that contains the dirty HTML that needs sanitizing
+     * Depending upon browser support we use one of three strategies for doing this.
+     * Support: Safari 10.x -> XHR strategy
+     * Support: Firefox -> DomParser strategy
+     */
+    var getInertBodyElement /* function(html: string): HTMLBodyElement */ =
+      (function (window, document) {
+        var inertDocument;
+        if (document && document.implementation) {
+          inertDocument = document.implementation.createHTMLDocument("inert");
+        } else {
+          throw $sanitizeMinErr(
+            "noinert",
+            "Can't create an inert html document",
+          );
+        }
+        var inertBodyElement = (
+          inertDocument.documentElement || inertDocument.getDocumentElement()
+        ).querySelector("body");
+
+        // Check for the Safari 10.1 bug - which allows JS to run inside the SVG G element
+        inertBodyElement.innerHTML =
+          '<svg><g onload="this.parentNode.remove()"></g></svg>';
+        if (!inertBodyElement.querySelector("svg")) {
+          return getInertBodyElement_XHR;
+        } else {
+          // Check for the Firefox bug - which prevents the inner img JS from being sanitized
+          inertBodyElement.innerHTML =
+            '<svg><p><style><img src="</style><img src=x onerror=alert(1)//">';
+          if (inertBodyElement.querySelector("svg img")) {
+            return getInertBodyElement_DOMParser;
+          } else {
+            return getInertBodyElement_InertDocument;
+          }
+        }
+
+        function getInertBodyElement_XHR(html) {
+          // We add this dummy element to ensure that the rest of the content is parsed as expected
+          // e.g. leading whitespace is maintained and tags like `<meta>` do not get hoisted to the `<head>` tag.
+          html = "<remove></remove>" + html;
+          try {
+            html = encodeURI(html);
+          } catch (e) {
+            return undefined;
+          }
+          var xhr = new window.XMLHttpRequest();
+          xhr.responseType = "document";
+          xhr.open("GET", "data:text/html;charset=utf-8," + html, false);
+          xhr.send(null);
+          var body = xhr.response.body;
+          body.firstChild.remove();
+          return body;
+        }
+
+        function getInertBodyElement_DOMParser(html) {
+          // We add this dummy element to ensure that the rest of the content is parsed as expected
+          // e.g. leading whitespace is maintained and tags like `<meta>` do not get hoisted to the `<head>` tag.
+          html = "<remove></remove>" + html;
+          try {
+            var body = new window.DOMParser().parseFromString(
+              html,
+              "text/html",
+            ).body;
+            body.firstChild.remove();
+            return body;
+          } catch (e) {
+            return undefined;
+          }
+        }
+
+        function getInertBodyElement_InertDocument(html) {
+          inertBodyElement.innerHTML = html;
+
+          // Support: IE 9-11 only
+          // strip custom-namespaced attributes on IE<=11
+          if (document.documentMode) {
+            stripCustomNsAttrs(inertBodyElement);
+          }
+
+          return inertBodyElement;
+        }
+      })(window, window.document);
+
+    /**
+     * @example
+     * htmlParser(htmlString, {
+     *     start: function(tag, attrs) {},
+     *     end: function(tag) {},
+     *     chars: function(text) {},
+     *     comment: function(text) {}
+     * });
+     *
+     * @param {string} html string
+     * @param {object} handler
+     */
+    function htmlParserImpl(html, handler) {
+      if (html === null || html === undefined) {
+        html = "";
+      } else if (typeof html !== "string") {
+        html = "" + html;
+      }
+
+      var inertBodyElement = getInertBodyElement(html);
+      if (!inertBodyElement) return "";
+
+      //mXSS protection
+      var mXSSAttempts = 5;
+      do {
+        if (mXSSAttempts === 0) {
+          throw $sanitizeMinErr(
+            "uinput",
+            "Failed to sanitize html because the input is unstable",
+          );
+        }
+        mXSSAttempts--;
+
+        // trigger mXSS if it is going to happen by reading and writing the innerHTML
+        html = inertBodyElement.innerHTML;
+        inertBodyElement = getInertBodyElement(html);
+      } while (html !== inertBodyElement.innerHTML);
+
+      var node = inertBodyElement.firstChild;
+      while (node) {
+        switch (node.nodeType) {
+          case 1: // ELEMENT_NODE
+            handler.start(
+              node.nodeName.toLowerCase(),
+              attrToMap(node.attributes),
+            );
+            break;
+          case 3: // TEXT NODE
+            handler.chars(node.textContent);
+            break;
+        }
+
+        var nextNode;
+        if (!(nextNode = node.firstChild)) {
+          if (node.nodeType === 1) {
+            handler.end(node.nodeName.toLowerCase());
+          }
+          nextNode = getNonDescendant("nextSibling", node);
+          if (!nextNode) {
+            while (nextNode == null) {
+              node = getNonDescendant("parentNode", node);
+              if (node === inertBodyElement) break;
+              nextNode = getNonDescendant("nextSibling", node);
+              if (node.nodeType === 1) {
+                handler.end(node.nodeName.toLowerCase());
+              }
+            }
+          }
+        }
+        node = nextNode;
+      }
+
+      while ((node = inertBodyElement.firstChild)) {
+        inertBodyElement.removeChild(node);
+      }
+    }
+
+    function attrToMap(attrs) {
+      var map = {};
+      for (var i = 0, ii = attrs.length; i < ii; i++) {
+        var attr = attrs[i];
+        map[attr.name] = attr.value;
+      }
+      return map;
+    }
+
+    /**
+     * Escapes all potentially dangerous characters, so that the
+     * resulting string can be safely inserted into attribute or
+     * element text.
+     * @param value
+     * @returns {string} escaped text
+     */
+    function encodeEntities(value) {
+      return value
+        .replace(/&/g, "&amp;")
+        .replace(SURROGATE_PAIR_REGEXP, function (value) {
+          var hi = value.charCodeAt(0);
+          var low = value.charCodeAt(1);
+          return (
+            "&#" + ((hi - 0xd800) * 0x400 + (low - 0xdc00) + 0x10000) + ";"
+          );
+        })
+        .replace(NON_ALPHANUMERIC_REGEXP, function (value) {
+          return "&#" + value.charCodeAt(0) + ";";
+        })
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+    }
+
+    /**
+     * create an HTML/XML writer which writes to buffer
+     * @param {Array} buf use buf.join('') to get out sanitized html string
+     * @returns {object} in the form of {
+     *     start: function(tag, attrs) {},
+     *     end: function(tag) {},
+     *     chars: function(text) {},
+     *     comment: function(text) {}
+     * }
+     */
+    function htmlSanitizeWriterImpl(buf, uriValidator) {
+      var ignoreCurrentElement = false;
+      var out = bind(buf, buf.push);
+      return {
+        start: function (tag, attrs) {
+          tag = lowercase(tag);
+          if (!ignoreCurrentElement && blockedElements[tag]) {
+            ignoreCurrentElement = tag;
+          }
+          if (!ignoreCurrentElement && validElements[tag] === true) {
+            out("<");
+            out(tag);
+            forEach(attrs, function (value, key) {
+              var lkey = lowercase(key);
+              var isImage =
+                (tag === "img" && lkey === "src") || lkey === "background";
+              if (
+                validAttrs[lkey] === true &&
+                (uriAttrs[lkey] !== true || uriValidator(value, isImage))
+              ) {
+                out(" ");
+                out(key);
+                out('="');
+                out(encodeEntities(value));
+                out('"');
+              }
+            });
+            out(">");
+          }
+        },
+        end: function (tag) {
+          tag = lowercase(tag);
+          if (
+            !ignoreCurrentElement &&
+            validElements[tag] === true &&
+            voidElements[tag] !== true
+          ) {
+            out("</");
+            out(tag);
+            out(">");
+          }
+          // eslint-disable-next-line eqeqeq
+          if (tag == ignoreCurrentElement) {
+            ignoreCurrentElement = false;
+          }
+        },
+        chars: function (chars) {
+          if (!ignoreCurrentElement) {
+            out(encodeEntities(chars));
+          }
+        },
+      };
+    }
+
+    /**
+     * When IE9-11 comes across an unknown namespaced attribute e.g. 'xlink:foo' it adds 'xmlns:ns1' attribute to declare
+     * ns1 namespace and prefixes the attribute with 'ns1' (e.g. 'ns1:xlink:foo'). This is undesirable since we don't want
+     * to allow any of these custom attributes. This method strips them all.
+     *
+     * @param node Root element to process
+     */
+    function stripCustomNsAttrs(node) {
+      while (node) {
+        if (node.nodeType === window.Node.ELEMENT_NODE) {
+          var attrs = node.attributes;
+          for (var i = 0, l = attrs.length; i < l; i++) {
+            var attrNode = attrs[i];
+            var attrName = attrNode.name.toLowerCase();
+            if (
+              attrName === "xmlns:ns1" ||
+              attrName.lastIndexOf("ns1:", 0) === 0
+            ) {
+              node.removeAttributeNode(attrNode);
+              i--;
+              l--;
+            }
+          }
+        }
+
+        var nextNode = node.firstChild;
+        if (nextNode) {
+          stripCustomNsAttrs(nextNode);
+        }
+
+        node = getNonDescendant("nextSibling", node);
+      }
+    }
+
+    function getNonDescendant(propName, node) {
+      // An element is clobbered if its `propName` property points to one of its descendants
+      var nextNode = node[propName];
+      if (nextNode && nodeContains.call(node, nextNode)) {
+        throw $sanitizeMinErr(
+          "elclob",
+          "Failed to sanitize html because the element is clobbered: {0}",
+          node.outerHTML || node.outerText,
+        );
+      }
+      return nextNode;
+    }
+  }
+
+  function sanitizeText(chars) {
+    var buf = [];
+    var writer = htmlSanitizeWriter(buf, noop);
+    writer.chars(chars);
+    return buf.join("");
+  }
+
+  // define ngSanitize module and register $sanitize service
+  angular
+    .module("ngSanitize", [])
+    .provider("$sanitize", $SanitizeProvider)
+    .info({ angularVersion: "1.8.0" });
+
+  /**
+ * @ngdoc filter
+ * @name linky
+ * @kind function
+ *
+ * @description
+ * Finds links in text input and turns them into html links. Supports `http/https/ftp/sftp/mailto` and
+ * plain email address links.
+ *
+ * Requires the {@link ngSanitize `ngSanitize`} module to be installed.
+ *
+ * @param {string} text Input text.
+ * @param {string} [target] Window (`_blank|_self|_parent|_top`) or named frame to open links in.
+ * @param {object|function(url)} [attributes] Add custom attributes to the link element.
+ *
+ *    Can be one of:
+ *
+ *    - `object`: A map of attributes
+ *    - `function`: Takes the url as a parameter and returns a map of attributes
+ *
+ *    If the map of attributes contains a value for `target`, it overrides the value of
+ *    the target parameter.
+ *
+ *
+ * @returns {string} Html-linkified and {@link $sanitize sanitized} text.
+ *
+ * @usage
+   <span ng-bind-html="linky_expression | linky"></span>
+ *
+ * @example
+   <example module="linkyExample" deps="angular-sanitize.js" name="linky-filter">
+     <file name="index.html">
+       <div ng-controller="ExampleController">
+       Snippet: <textarea ng-model="snippet" cols="60" rows="3"></textarea>
+       <table>
+         <tr>
+           <th>Filter</th>
+           <th>Source</th>
+           <th>Rendered</th>
+         </tr>
+         <tr id="linky-filter">
+           <td>linky filter</td>
+           <td>
+             <pre>&lt;div ng-bind-html="snippet | linky"&gt;<br>&lt;/div&gt;</pre>
+           </td>
+           <td>
+             <div ng-bind-html="snippet | linky"></div>
+           </td>
+         </tr>
+         <tr id="linky-target">
+          <td>linky target</td>
+          <td>
+            <pre>&lt;div ng-bind-html="snippetWithSingleURL | linky:'_blank'"&gt;<br>&lt;/div&gt;</pre>
+          </td>
+          <td>
+            <div ng-bind-html="snippetWithSingleURL | linky:'_blank'"></div>
+          </td>
+         </tr>
+         <tr id="linky-custom-attributes">
+          <td>linky custom attributes</td>
+          <td>
+            <pre>&lt;div ng-bind-html="snippetWithSingleURL | linky:'_self':{rel: 'nofollow'}"&gt;<br>&lt;/div&gt;</pre>
+          </td>
+          <td>
+            <div ng-bind-html="snippetWithSingleURL | linky:'_self':{rel: 'nofollow'}"></div>
+          </td>
+         </tr>
+         <tr id="escaped-html">
+           <td>no filter</td>
+           <td><pre>&lt;div ng-bind="snippet"&gt;<br>&lt;/div&gt;</pre></td>
+           <td><div ng-bind="snippet"></div></td>
+         </tr>
+       </table>
+     </file>
+     <file name="script.js">
+       angular.module('linkyExample', ['ngSanitize'])
+         .controller('ExampleController', ['$scope', function($scope) {
+           $scope.snippet =
+             'Pretty text with some links:\n' +
+             'http://angularjs.org/,\n' +
+             'mailto:us@somewhere.org,\n' +
+             'another@somewhere.org,\n' +
+             'and one more: ftp://127.0.0.1/.';
+           $scope.snippetWithSingleURL = 'http://angularjs.org/';
+         }]);
+     </file>
+     <file name="protractor.js" type="protractor">
+       it('should linkify the snippet with urls', function() {
+         expect(element(by.id('linky-filter')).element(by.binding('snippet | linky')).getText()).
+             toBe('Pretty text with some links: http://angularjs.org/, us@somewhere.org, ' +
+                  'another@somewhere.org, and one more: ftp://127.0.0.1/.');
+         expect(element.all(by.css('#linky-filter a')).count()).toEqual(4);
+       });
+
+       it('should not linkify snippet without the linky filter', function() {
+         expect(element(by.id('escaped-html')).element(by.binding('snippet')).getText()).
+             toBe('Pretty text with some links: http://angularjs.org/, mailto:us@somewhere.org, ' +
+                  'another@somewhere.org, and one more: ftp://127.0.0.1/.');
+         expect(element.all(by.css('#escaped-html a')).count()).toEqual(0);
+       });
+
+       it('should update', function() {
+         element(by.model('snippet')).clear();
+         element(by.model('snippet')).sendKeys('new http://link.');
+         expect(element(by.id('linky-filter')).element(by.binding('snippet | linky')).getText()).
+             toBe('new http://link.');
+         expect(element.all(by.css('#linky-filter a')).count()).toEqual(1);
+         expect(element(by.id('escaped-html')).element(by.binding('snippet')).getText())
+             .toBe('new http://link.');
+       });
+
+       it('should work with the target property', function() {
+        expect(element(by.id('linky-target')).
+            element(by.binding("snippetWithSingleURL | linky:'_blank'")).getText()).
+            toBe('http://angularjs.org/');
+        expect(element(by.css('#linky-target a')).getAttribute('target')).toEqual('_blank');
+       });
+
+       it('should optionally add custom attributes', function() {
+        expect(element(by.id('linky-custom-attributes')).
+            element(by.binding("snippetWithSingleURL | linky:'_self':{rel: 'nofollow'}")).getText()).
+            toBe('http://angularjs.org/');
+        expect(element(by.css('#linky-custom-attributes a')).getAttribute('rel')).toEqual('nofollow');
+       });
+     </file>
+   </example>
+ */
+  angular.module("ngSanitize").filter("linky", [
+    "$sanitize",
+    function ($sanitize) {
+      var LINKY_URL_REGEXP =
+          /((s?ftp|https?):\/\/|(www\.)|(mailto:)?[A-Za-z0-9._%+-]+@)\S*[^\s.;,(){}<>"\u201d\u2019]/i,
+        MAILTO_REGEXP = /^mailto:/i;
+
+      var linkyMinErr = angular.$$minErr("linky");
+      var isDefined = angular.isDefined;
+      var isFunction = angular.isFunction;
+      var isObject = angular.isObject;
+      var isString = angular.isString;
+
+      return function (text, target, attributes) {
+        if (text == null || text === "") return text;
+        if (!isString(text))
+          throw linkyMinErr(
+            "notstring",
+            "Expected string but received: {0}",
+            text,
+          );
+
+        var attributesFn = isFunction(attributes)
+          ? attributes
+          : isObject(attributes)
+            ? function getAttributesObject() {
+                return attributes;
+              }
+            : function getEmptyAttributesObject() {
+                return {};
+              };
+
+        var match;
+        var raw = text;
+        var html = [];
+        var url;
+        var i;
+        while ((match = raw.match(LINKY_URL_REGEXP))) {
+          // We can not end in these as they are sometimes found at the end of the sentence
+          url = match[0];
+          // if we did not match ftp/http/www/mailto then assume mailto
+          if (!match[2] && !match[4]) {
+            url = (match[3] ? "http://" : "mailto:") + url;
+          }
+          i = match.index;
+          addText(raw.substr(0, i));
+          addLink(url, match[0].replace(MAILTO_REGEXP, ""));
+          raw = raw.substring(i + match[0].length);
+        }
+        addText(raw);
+        return $sanitize(html.join(""));
+
+        function addText(text) {
+          if (!text) {
+            return;
+          }
+          html.push(sanitizeText(text));
+        }
+
+        function addLink(url, text) {
+          var key,
+            linkAttributes = attributesFn(url);
+          html.push("<a ");
+
+          for (key in linkAttributes) {
+            html.push(key + '="' + linkAttributes[key] + '" ');
+          }
+
+          if (isDefined(target) && !("target" in linkAttributes)) {
+            html.push('target="', target, '" ');
+          }
+          html.push('href="', url.replace(/"/g, "&quot;"), '">');
+          addText(text);
+          html.push("</a>");
+        }
+      };
+    },
+  ]);
+})(window, window.angular);
