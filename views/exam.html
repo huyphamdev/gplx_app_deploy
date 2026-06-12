@@ -10,8 +10,20 @@
     </div>
 </div>
 
+<!-- Retry Popup -->
+<div ng-if="show_retry_popup" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8); z-index: 1000; overflow-y: auto;">
+    <div style="background: white; border-radius: 16px; margin: 150px auto; padding: 25px; width: 90%; max-width: 400px; text-align: center;">
+        <h3 style="color: #0171ec; margin-top: 0;">Bộ đề đã hoàn thành</h3>
+        <p style="color: #555; margin-bottom: 20px;">Bạn đã làm bộ đề này rồi. Bạn muốn làm lại từ đầu hay xem lại kết quả bài cũ?</p>
+        <div style="display: flex; gap: 10px;">
+            <button ng-click="retryExam()" style="flex: 1; padding: 12px; background: #0171ec; color: white; border: none; border-radius: 20px; font-weight: bold; cursor: pointer;">Làm lại</button>
+            <button ng-click="viewOldResult()" style="flex: 1; padding: 12px; background: white; color: #0171ec; border: 2px solid #0171ec; border-radius: 20px; font-weight: bold; cursor: pointer;">Xem lại</button>
+        </div>
+    </div>
+</div>
+
 <!-- Result Popup -->
-<div ng-if="show_result && result" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8); z-index: 1000; overflow-y: auto;">
+<div ng-if="show_result && result && !show_retry_popup" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8); z-index: 1000; overflow-y: auto;">
     <div style="background: white; border-radius: 16px; margin: 100px auto; padding: 30px; width: 90%; max-width: 450px; position: relative;">
         <button ng-click="closeResult()" style="position: absolute; right: 20px; top: 20px; background: none; border: none; font-size: 28px; cursor: pointer; color: #999;">&times;</button>
 

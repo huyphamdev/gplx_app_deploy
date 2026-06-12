@@ -12,8 +12,19 @@
     </div>
 </div>
 <p></p>
-
 <p class="ng-scope"></p>
+
+<!-- Topic Retry Popup -->
+<div ng-if="show_topic_retry_popup" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8); z-index: 1000; overflow-y: auto;">
+    <div style="background: white; border-radius: 16px; margin: 150px auto; padding: 25px; width: 90%; max-width: 400px; text-align: center;">
+        <h3 style="color: #dc1354; margin-top: 0;">Hoàn thành ôn tập</h3>
+        <p style="color: #555; margin-bottom: 20px;">Bạn đã hoàn thành nhưng còn <b style="color:red">{{wrongCountForPopup}} câu sai</b>. Bạn có muốn làm lại các câu bị sai để nhớ lâu hơn không?</p>
+        <div style="display: flex; gap: 10px;">
+            <button ng-click="retryTopic()" style="flex: 1; padding: 12px; background: #0171ec; color: white; border: none; border-radius: 20px; font-weight: bold; cursor: pointer;">Làm lại</button>
+            <button ng-click="exitTopic()" style="flex: 1; padding: 12px; background: white; color: #0171ec; border: 2px solid #0171ec; border-radius: 20px; font-weight: bold; cursor: pointer;">Thoát</button>
+        </div>
+    </div>
+</div>
 
 <div id="details-page">
     <div style="display: flex; justify-content: space-between; align-items: center; padding: 5px;">
