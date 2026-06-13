@@ -5,15 +5,15 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2NBPR4Y5JE"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-      gtag('config', 'G-2NBPR4Y5JE');
+        gtag('config', 'G-2NBPR4Y5JE');
     </script>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>Ôn thi sát hạch lái xe</title>
+    <title>ÔN TẬP THI GPLX</title>
     <link rel="stylesheet" href="css/font-awesome/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/toastr.css">
     <link rel="stylesheet" type="text/css" href="css/app.css">
@@ -49,11 +49,11 @@
                 navigator.serviceWorker.register('./sw.js')
                     .then(function (registration) {
                         console.log('SW registered:', registration.scope);
-                        
+
                         registration.onupdatefound = () => {
                             const installingWorker = registration.installing;
                             if (installingWorker == null) return;
-                            
+
                             installingWorker.onstatechange = () => {
                                 if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
                                     if (confirm("Có phiên bản mới của ứng dụng! Bạn có muốn tải lại trang để cập nhật ngay?")) {
@@ -68,9 +68,9 @@
                         console.log('SW registration failed:', error);
                     });
             });
-            
+
             let refreshing = false;
-            navigator.serviceWorker.addEventListener('controllerchange', function() {
+            navigator.serviceWorker.addEventListener('controllerchange', function () {
                 if (refreshing) return;
                 refreshing = true;
                 window.location.reload();

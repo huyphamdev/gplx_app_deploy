@@ -1,7 +1,7 @@
 {
-  "name": "600 Câu Hỏi Thi Sát Hạch Lái Xe",
+  "name": "ÔN TẬP THI GPLX",
   "short_name": "Ôn Thi GPLX",
-  "description": "Ôn thi bằng lái xe máy, ô tô tất cả các hạng A1, A2, B1, B, C, D theo bộ đề mới nhất 2026",
+  "description": "Ôn thi bằng lái xe máy, ô tô tất cả các hạng theo bộ đề mới nhất 2026",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
