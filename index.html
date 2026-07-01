@@ -56,10 +56,8 @@
 
                             installingWorker.onstatechange = () => {
                                 if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                                    if (confirm("Có phiên bản mới của ứng dụng! Bạn có muốn tải lại trang để cập nhật ngay?")) {
-                                        installingWorker.postMessage('skipWaiting');
-                                        window.location.reload();
-                                    }
+                                    installingWorker.postMessage('skipWaiting');
+                                    window.location.reload();
                                 }
                             };
                         };
